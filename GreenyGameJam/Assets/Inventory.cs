@@ -21,6 +21,7 @@ public class Inventory : MonoBehaviour
     {
         inventoryImages[index].gameObject.SetActive(true);
         inventoryImages[index].sprite = item.sprite;
+        inventoryImages[index].gameObject.name = item.ItemName;
         index++;
         inventory.Add(item);
         item.gameObject.SetActive(false);
