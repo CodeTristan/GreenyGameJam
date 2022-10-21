@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
-
+    
     private Rigidbody2D rb;
 
     void Start()
@@ -18,8 +18,6 @@ public class PlayerMovement : MonoBehaviour
         float vertical = Input.GetAxis("Vertical") * speed * Time.deltaTime;
 
         transform.position += new Vector3(horizontal, vertical,0);
-
-        //wfefasfsasa
 
     }
 
