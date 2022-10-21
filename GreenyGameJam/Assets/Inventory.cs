@@ -12,14 +12,14 @@ public class Inventory : MonoBehaviour
     
 
     private bool onObject = false;
-    private string tempItem = "";
+    private Item tempItem;
     private GameObject tempObject;
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
         if(collider2D.tag == "Item")
         {
             onObject = true;
-            tempItem = collider2D.gameObject.name;
+            tempItem = collider2D.gameObject.GetComponent<Item>();
             tempObject = collider2D.gameObject;
         }
     }
@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour
         {
             inventory.Add(tempItem);
             Destroy(tempObject);
-            Debug.Log("envanter : " + inventory.Count);
+            Debug.Log("envanter : " + inventory[0].ItemName);
         }
     }
 }
