@@ -6,21 +6,31 @@ public class Inventory : MonoBehaviour
 {
     List<string> inventory = new List<string>();
 
+    private bool onObject = false;
+    private string tempItem = "";
+    private GameObject tempObject;
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if(collider2D.tag == "Item")
         {
-            inventory.Add(collider2D.gameObject.name);
-
+            onObject = true;
+            tempItem = collider2D.gameObject.name;
+            tempObject = collider2D.gameObject;
         }
+            
     }
-
+    private void OnTriggerExit2D(Collider2D collider2D)
+    {
+        if (collider2D.tag == "Item")
+            onObject = false;
+    }
     void Update()
     {
-        if (inventory.Count > 0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            print("envanter : " + inventory[0]);
-
+            inventory.Add(tempItem);
+            Destroy(tempObject);
+            Debug.Log("envanter : " + inventory[0]);
         }
     }
 }
