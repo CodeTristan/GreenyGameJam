@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position += new Vector3(horizontal, vertical,0);
 
+        //wfefasfsasa
 
     }
 
