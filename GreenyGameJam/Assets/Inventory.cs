@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour
         {
             inventory.Add(tempItem);
             Destroy(tempObject);
-            Debug.Log("envanter : " + inventory[0].ItemName);
+            Debug.Log("envanter : " + inventory.Count);
         }
     }
 }
