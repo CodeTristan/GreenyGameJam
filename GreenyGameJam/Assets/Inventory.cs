@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     List<string> inventory = new List<string>();
 
+    
     private bool onObject = false;
     private string tempItem = "";
     private GameObject tempObject;

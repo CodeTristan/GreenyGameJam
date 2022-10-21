@@ -9,8 +9,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     private Dialogue[] currentDialogs;
 
+    public DialogueStarter firstDialog;
     public Animator animator;
-    public GameObject LastScene;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
 
@@ -28,6 +28,7 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         sentences = new Queue<string>();
+        firstDialog.TriggerDialog();
     }
     void Update()
     {
