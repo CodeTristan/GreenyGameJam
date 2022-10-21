@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    List<string> inventory = new List<string>();
+    List<Item> inventory = new List<Item>();
+    
+    
+    
 
     private bool onObject = false;
     private string tempItem = "";
@@ -17,7 +22,6 @@ public class Inventory : MonoBehaviour
             tempItem = collider2D.gameObject.name;
             tempObject = collider2D.gameObject;
         }
-            
     }
     private void OnTriggerExit2D(Collider2D collider2D)
     {
@@ -26,11 +30,11 @@ public class Inventory : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && onObject)
         {
             inventory.Add(tempItem);
             Destroy(tempObject);
-            Debug.Log("envanter : " + inventory[0]);
+            Debug.Log("envanter : " + inventory.Count);
         }
     }
 }
