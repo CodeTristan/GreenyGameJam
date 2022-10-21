@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     
     
 
+    
     private bool onObject = false;
     private string tempItem = "";
     private GameObject tempObject;
