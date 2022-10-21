@@ -33,7 +33,7 @@ public class Inventory : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && onObject)
         {
-            inventory.Add(tempItem);
+            //inventory.Add(tempItem);
             Destroy(tempObject);
             Debug.Log("envanter : " + inventory.Count);
         }
