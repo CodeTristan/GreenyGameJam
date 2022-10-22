@@ -11,17 +11,31 @@ public class DialogueStarter : MonoBehaviour
 
     private DialogueManager manager;
     private GameObject choiceScreen;
+    private bool playerTouched;
     private void Awake()
     {
         manager = FindObjectOfType<DialogueManager>();
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player" && Input.GetKeyDown(KeyCode.Space))
+        if(collision.tag == "Player")
         {
-            TriggerDialog();
+            playerTouched = true;
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            playerTouched = false;
+        }
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && playerTouched && !manager.InDialogue)
+            TriggerDialog();
     }
     public void TriggerDialog()
     {

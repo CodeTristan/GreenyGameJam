@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Masa;
     public GameObject Drawer;
     public GameObject Alchemy;
+    public GameObject fadeOut;
     public float speed;
     public DialogueStarter firstDialog;
 
@@ -15,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D collider;
     private Animator animator;
 
-    private bool canmove = true;
+    public bool canmove = true;
     private bool onMasa = false;
     private bool onDrawer = false;
     private bool onAlchemy = false;
@@ -57,11 +58,16 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) > 1)
-            transform.position += new Vector3(1, 0, 0) * speed * Time.deltaTime;
-        else if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) <= 1)
+        if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) > 1.5f)
         {
+            transform.position += new Vector3(1, 0, 0) * speed * Time.deltaTime;
+            animator.SetFloat("Speed", Mathf.Abs(speed));
+        }
+        else if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) <= 1.5f)
+        {
+            animator.SetFloat("Speed", Mathf.Abs(0));
             inBeginning = false;
+            fadeOut.SetActive(false);
             firstDialog.TriggerDialog();
             canmove = true;
         }

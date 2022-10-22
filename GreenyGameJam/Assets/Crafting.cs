@@ -23,6 +23,7 @@ public class Crafting : MonoBehaviour
     {
         if(itemName != "")
         {
+            Debug.Log(22);
             item = new Item();
             gameObject.GetComponentInChildren<SpriteRenderer>().sprite = sprite;
             FindObjectOfType<Inventory>().DeleteItem(index);
@@ -30,6 +31,7 @@ public class Crafting : MonoBehaviour
     }
     public void Craft()
     {
+        Debug.Log("Butto Clicked");
         if(itemName == otherCrafting.itemName)
         {
             item.ItemName = itemName;

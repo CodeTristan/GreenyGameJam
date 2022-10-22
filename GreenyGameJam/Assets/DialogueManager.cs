@@ -48,6 +48,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialog(Dialogue[] dialog, bool choice)
     {
         InDialogue = true;
+        FindObjectOfType<PlayerMovement>().canmove = false;
         isThereChoice = choice;
         currentDialogs = dialog;
         animator.SetBool("isOpen", true);
@@ -58,6 +59,7 @@ public class DialogueManager : MonoBehaviour
         }
         nameText.text = dialog[dialogCount].name;
         picture.sprite = dialog[dialogCount].sprite;
+        
         sentences.Clear();
 
         foreach (string sentence in dialog[dialogCount].sentences)
@@ -110,7 +112,8 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         isThereChoice = false;
         InDialogue = false;
-        
+        FindObjectOfType<PlayerMovement>().canmove = true;
+
     }
 
 }

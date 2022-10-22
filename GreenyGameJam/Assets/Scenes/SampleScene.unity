@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41904571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3119999, y: 0.17499998, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: -5.87, y: 1.4611, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 366024043}
@@ -278,8 +278,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105825859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.19399992, y: 0.17499998, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: -3.6081986, y: 1.47, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1198000695}
@@ -490,8 +490,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128709609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.094, y: -0.123, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: -1.96, y: -0.99, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 638375683}
@@ -1130,7 +1130,7 @@ RectTransform:
   m_GameObject: {fileID: 313661808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05555556, y: 0.1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1943887859}
@@ -1139,7 +1139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.008, y: -0.348}
+  m_AnchoredPosition: {x: -0.04, y: -3.19}
   m_SizeDelta: {x: 6.37928, y: 2.49306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313661810
@@ -1228,8 +1228,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314207147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.041000098, y: 0.17499998, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: 0.9718013, y: 1.43, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1366066932}
@@ -1915,6 +1915,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 1, z: -10}
+--- !u!1 &534411013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534411014}
+  m_Layer: 0
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534411014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534411013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1001.84064, y: 773.52356, z: -2.91053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1138711421}
+  - {fileID: 733060081}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &538688233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,21 +2553,73 @@ MonoBehaviour:
   dialog:
   - name: 
     sentences: []
-    sprite: {fileID: 0}
-  - name: Eren
+    sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
+  - name: Denise Von Dornis
     sentences:
-    - Deneme Deneme 123
-    - Deneme Deneme 123
-    - "Merhaba ben Denise Von Dornis. Ben bir dedektifim ve \u015Fimdi t\xFCm su\xE7lular\u0131
-      yakalayaca\u011F\u0131m. Fakat t\xFCrk\xE7e karakterler olmad\u0131\u011F\u0131ndan
-      b\xF6yle g\xF6z\xFCk\xFCyor maalesef."
-    sprite: {fileID: -571471305, guid: 15a078fdfb48a3549aa6f10130cd1bff, type: 3}
+    - 
+    - "Ne olmu\u015F burada?"
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+  - name: Polis
+    sentences:
+    - 
+    - "Dedektif, korkun\xE7 klasik bir intihar vakas\u0131.\r\n"
+    sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
     sentences:
     - 
-    - Selam Deneme
-    - Ben denise
+    - "Klasik intihar vakas\u0131, bu \xE7\u0131kar\u0131m\u0131 nas\u0131l yapt\u0131n?"
     sprite: {fileID: 21300000, guid: 4ce215aebb8d7ba4bbe8607fa0164b56, type: 3}
+  - name: Polis
+    sentences:
+    - 
+    - "Silah elinde, ba\u015F\u0131ndan vurulmu\u015F, kan\u0131n s\u0131\xE7ramas\u0131
+      da \u015F\xFCpheli g\xF6z\xFCkm\xFCyor."
+    sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
+  - name: Denise
+    sentences:
+    - 
+    - "Olay yeri incelemesi tamamlanmadan b\xF6yle bir \xE7\u0131kar\u0131m yapma,
+      ayr\u0131ca profes\xF6r hangi elini kullan\u0131yor?"
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+  - name: Polis
+    sentences:
+    - 
+    - Bunu bilmiyoruz...
+    sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
+  - name: Robo
+    sentences:
+    - 
+    - "Merhaba Dedektif, ben yard\u0131mc\u0131 asistan\u0131n Robo. Bu yolculuk
+      boyunca sana ben yard\u0131mc\u0131 olaca\u011F\u0131m. Ve seninle \xF6nemli
+      bir su\xE7u \xE7\xF6zece\u011Fiz"
+    - "\xD6ncelikle devletin zamanda yolculuk program\u0131 kapsam\u0131nda hareket
+      edebilece\u011Fini belirtmek istiyorum. \u0130ste\u011Fine g\xF6re de\u011Fil
+      sadece gelen ipu\xE7lar\u0131na g\xF6re uygun zamana gidebiliriz."
+    - "Envanterine ipu\xE7lar\u0131n\u0131 ve gerekli e\u015Fyalar\u0131 toplayabilirsin,
+      sadece unutma ENVANTER\u0130NDEK\u0130 E\u015EYALARI KULLANMADAN BA\u015EKA
+      E\u015EYA ALAMAZSIN. "
+    - "KISITLI KAYNA\u011EIN OLDU\u011EUNU ASLA UNUTMAMALISIN."
+    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
+  - name: Denise
+    sentences:
+    - 
+    - "Tamam tamam be ba\u011F\u0131rma."
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+  - name: Robo
+    sentences:
+    - 
+    - "E\u015Fyalar\u0131 ve ipu\xE7lar\u0131n\u0131 yanlar\u0131na giderek rahatl\u0131kla
+      toplayabilirsin."
+    - "Baz\u0131 noktalarda kar\u015F\u0131na puzzlelar \xE7\u0131kacak ve ben sana
+      onlar\u0131 anlataca\u011F\u0131m. \u0130pucu hakk\u0131n her seviyede sadece
+      2 tane, bunu akl\u0131ndan \xE7\u0131karma."
+    - "Seninle \xE7al\u0131\u015Faca\u011F\u0131m\u0131z i\xE7in olduk\xE7a heyecanl\u0131y\u0131m,
+      hadi ba\u015Flayal\u0131m!"
+    - "Bu oday\u0131 aramaya istedi\u011Fin yerden ba\u015Flayabilirsin. Totalde
+      \xF6nemli 3 alan\u0131m\u0131z var; masa, kimya masas\u0131 ve zemin."
+    - "Alabilece\u011Fin e\u015Fyalar\u0131 yanlar\u0131na gidince anlayacaks\u0131n.
+      Kolay gelsin, ben buraday\u0131m."
+    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!4 &733060081
 Transform:
@@ -2543,13 +2628,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733060079}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1031.9293, y: 345.86038, z: 1.8789227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 30.088684, y: -427.66318, z: 4.7894526}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 534411014}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &760130538
 GameObject:
@@ -2993,18 +3078,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.098689556, y: -0.019738197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 11.8, y: 9}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 11.540027, y: 8.61882}
   m_EdgeRadius: 0
 --- !u!212 &986782674
 SpriteRenderer:
@@ -3047,8 +3132,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -2413806693520163455, guid: 54b8cf56868866741af582801ea1e815, type: 3}
-  m_Color: {r: 0.42643276, g: 0.735849, b: 0.38458523, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 974901a04870c5f4c9fa004c5ccd0807, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3066,8 +3151,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986782672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.38, y: -1.23, z: 0}
-  m_LocalScale: {x: 12.839655, y: 6.15982, z: 1}
+  m_LocalPosition: {x: 15.52, y: -0.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3100,8 +3185,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016276174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1034, y: -0.123, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: 1.73, y: -0.94, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1210431237}
@@ -3489,7 +3574,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1128215351
 GameObject:
@@ -3617,8 +3702,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1138711421}
   - component: {fileID: 1138711420}
+  - component: {fileID: 1138711423}
+  - component: {fileID: 1138711422}
   m_Layer: 0
-  m_Name: profolu
+  m_Name: ProfDeadDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3683,14 +3770,68 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138711419}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1809, y: -3.88, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1003.02155, y: -777.40356, z: 2.91053}
   m_LocalScale: {x: 0.80656004, y: 0.83640003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 534411014}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1138711422
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138711419}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15, y: 2.7}
+    newSize: {x: 15, y: 2.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15, y: 2.7}
+  m_EdgeRadius: 0
+--- !u!114 &1138711423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138711419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1377128a1a1b26d4f9c4d130074e3e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Context: 
+  isThereChoiceAfterwards: 0
+  dialog:
+  - name: 
+    sentences: []
+    sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
+  - name: Denise Von Dornis
+    sentences:
+    - 
+    - "Bunun bir intihar olmad\u0131\u011F\u0131 a\u015Fikar, kad\u0131n \xF6nce
+      bo\u011Fulmaya \xE7al\u0131\u015Fm\u0131\u015F."
+    - "T\u0131rnaklar\u0131n\u0131n aras\u0131nda kimyasal kal\u0131nt\u0131lar\u0131
+      var."
+    - "Oday\u0131 inceleyip daha fazla ipucu toplamaya devam etsem iyi olacak.\r\n\t"
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+  dialogFinished: 0
 --- !u!1 &1157619895
 GameObject:
   m_ObjectHideFlags: 0
@@ -3800,8 +3941,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195578463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26800007, y: 0.17499998, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: 5.66, y: 1.39, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1649670544}
@@ -5023,7 +5164,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.31699276, y: -0.10225582}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5034,7 +5175,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.2291737, y: 7.4625616}
   m_EdgeRadius: 0
 --- !u!50 &1404564125
 Rigidbody2D:
@@ -5072,8 +5213,10 @@ MonoBehaviour:
   Masa: {fileID: 760130538}
   Drawer: {fileID: 1128215351}
   Alchemy: {fileID: 1491806551}
+  fadeOut: {fileID: 1592547223}
   speed: 10
   firstDialog: {fileID: 733060080}
+  canmove: 1
 --- !u!114 &1404564127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5423,7 +5566,7 @@ Transform:
   m_GameObject: {fileID: 1491806551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0682, y: -0.0124, z: 10}
-  m_LocalScale: {x: 18, y: 10, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 41904572}
@@ -5479,8 +5622,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 5d36de8437ae66b45904daa8399ec8e6, type: 3}
-  m_Color: {r: 0.66087574, g: 0.7924528, b: 0.75849086, a: 1}
+  m_Sprite: {fileID: 21300000, guid: f2af27fa3b672744ab0abe57515a2213, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6000,8 +6143,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608245462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.157, y: 0.175, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: 3.3618011, y: 1.39, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 129466227}
@@ -6742,8 +6885,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913016731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07699993, y: 0.17499998, z: 0}
-  m_LocalScale: {x: 0.03631286, y: 0.11573965, z: 1}
+  m_LocalPosition: {x: -1.2681987, y: 1.45, z: 0}
+  m_LocalScale: {x: 0.8218, y: 0.8299, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2096005356}
@@ -7563,7 +7706,7 @@ MonoBehaviour:
   animator: {fileID: 1797862717}
   nameText: {fileID: 1618459823}
   dialogText: {fileID: 1970474275}
-  picture: {fileID: 0}
+  picture: {fileID: 832207389}
   typeSpeed: 0.015
   dialogCount: 0
   maxDialogCount: 0
@@ -7583,7 +7726,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096005355
 GameObject:
