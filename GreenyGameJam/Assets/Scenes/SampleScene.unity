@@ -224,6 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Blue
   sprite: {fileID: 21300000, guid: c993a5f193753144ebb72e5864d05262, type: 3}
+  count: 5
 --- !u!61 &41904575
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -351,6 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Red
   sprite: {fileID: 21300000, guid: 9e5f1839a9c22934baf4eecca260d76b, type: 3}
+  count: 5
 --- !u!61 &105825863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -567,6 +569,12 @@ MonoBehaviour:
   greenSprite: {fileID: 21300000, guid: 0c80d057c6a769949a08a024ae9635d2, type: 3}
   purpleSprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   orangeSprite: {fileID: 21300000, guid: 44ee6f8f288e1304fb186db21a000230, type: 3}
+  finalFlashSprite: {fileID: 21300000, guid: 5a8f3ba8c3bf40748aeddbf642666f9d, type: 3}
+  crafted: 000000
+  flasks:
+  - {fileID: 314207147}
+  - {fileID: 1608245462}
+  - {fileID: 1195578463}
   item: {fileID: 0}
 --- !u!61 &128709613
 BoxCollider2D:
@@ -620,7 +628,7 @@ Transform:
   m_GameObject: {fileID: 129466226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0115, y: 0.0065, z: 0}
-  m_LocalScale: {x: 2.0775437, y: 1.271892, z: 1}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1608245463}
@@ -667,8 +675,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.7218008, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1328,6 +1336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: long
   sprite: {fileID: 21300000, guid: 775c7bd71485f87409825198c0b62f11, type: 3}
+  count: 0
 --- !u!61 &365405126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1710,6 +1719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: middle
   sprite: {fileID: 21300000, guid: 13f3023ae88a4b0418278dcca4ba9490, type: 3}
+  count: 0
 --- !u!61 &496931982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3165,6 +3175,12 @@ MonoBehaviour:
   greenSprite: {fileID: 21300000, guid: 0c80d057c6a769949a08a024ae9635d2, type: 3}
   purpleSprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   orangeSprite: {fileID: 21300000, guid: 44ee6f8f288e1304fb186db21a000230, type: 3}
+  finalFlashSprite: {fileID: 21300000, guid: 5a8f3ba8c3bf40748aeddbf642666f9d, type: 3}
+  crafted: 000000
+  flasks:
+  - {fileID: 314207147}
+  - {fileID: 1608245462}
+  - {fileID: 1195578463}
   item: {fileID: 0}
 --- !u!61 &1016276178
 BoxCollider2D:
@@ -4204,6 +4220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: short
   sprite: {fileID: 21300000, guid: 018e7b3cfd1aab240a43f4312c4eadde, type: 3}
+  count: 0
 --- !u!61 &1252411698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4574,7 +4591,7 @@ Transform:
   m_GameObject: {fileID: 1366066931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0115, y: 0.0065, z: 0}
-  m_LocalScale: {x: 2.0775437, y: 1.271892, z: 1}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 314207148}
@@ -4621,8 +4638,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.035871506, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 0c80d057c6a769949a08a024ae9635d2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5945,7 +5962,7 @@ Transform:
   m_GameObject: {fileID: 1649670543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0115, y: 0.0065, z: 0}
-  m_LocalScale: {x: 2.0775437, y: 1.271892, z: 1}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1195578464}
@@ -5992,8 +6009,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.41514006, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 44ee6f8f288e1304fb186db21a000230, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6540,6 +6557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Yellow
   sprite: {fileID: 21300000, guid: 7bf433be99a938d4094785d273fbbadb, type: 3}
+  count: 5
 --- !u!61 &1913016735
 BoxCollider2D:
   m_ObjectHideFlags: 0

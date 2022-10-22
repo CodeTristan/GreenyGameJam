@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
         inventoryImages[index].gameObject.name = item.ItemName;
         index++;
         inventory.Add(item);
-        if(item != null)
+        if(item != null && item.count <= 0)
             item.gameObject.SetActive(false);
         tempItem = null;
         tempObject = null;
