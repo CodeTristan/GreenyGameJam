@@ -127,9 +127,16 @@ public class DialogueManager : MonoBehaviour
         if (context == "pcDialog")
             numPad.SetActive(true);
         else if (context == "Drawer")
+        {
             FindObjectOfType<PlayerMovement>().collider.enabled = true;
+        }
         else if (context == "pcPasswordPaper")
             pcPasswordPaperUI.SetActive(true);
+        else if (context == "afterCraft")
+        {
+            FindObjectOfType<Inventory>().inventory.Clear();
+            FindObjectOfType<Inventory>().RefleshInventoryUI();
+        }
 
 
     }

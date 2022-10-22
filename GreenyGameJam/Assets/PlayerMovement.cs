@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     private bool onMasa = false;
     private bool onDrawer = false;
     private bool onAlchemy = false;
-    private bool DrawerOpened = false;
+    public bool DrawerOpened = false;
     private bool AlchemyOpened = false;
 
     private bool inBeginning = true;
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
             onDrawer = true;
         else if (collision.tag == "Alchemy")
             onAlchemy = true;
-        else if (collision.tag == "Door")
+        else if (collision.tag == "Door" && FindObjectOfType<RoomManager>().room1Finished)
             doorAnimator.SetTrigger("openDoor");
     }
 

@@ -8,6 +8,7 @@ public class Crafting : MonoBehaviour
     public Sprite sprite;
     public Sprite AlchemyFinalSprite;
     public SpriteRenderer AlchemyObject;
+    public DialogueStarter afterCraftDialog;
     public int index;
 
     public Crafting otherCrafting;
@@ -80,8 +81,11 @@ public class Crafting : MonoBehaviour
             item.ItemName = "FinalFlask";
             item.sprite = finalFlashSprite;
             AlchemyObject.sprite = AlchemyFinalSprite;
+            FindObjectOfType<RoomManager>().room1Alchemy = true;
             FindObjectOfType<Inventory>().AddItem(item);
             FindObjectOfType<Inventory>().RefleshInventoryUI();
+            afterCraftDialog.TriggerDialog();
+
         }
     }
     public void Craft2()

@@ -8,12 +8,15 @@ public class inventorySlot : MonoBehaviour
     public DrawerPuzzle drawerPuzzle;
     public Crafting crafting;
     public Crafting crafting2;
+    public PlayerMovement player;
     public int index;
-
     public void SendInfo()
     {
-        drawerPuzzle.pickedObject = gameObject.name;
-        drawerPuzzle.index = index;
+        if(player.DrawerOpened)
+        {
+            drawerPuzzle.pickedObject = gameObject.name;
+            drawerPuzzle.index = index;
+        }
 
         if(crafting.itemName == "")
         {

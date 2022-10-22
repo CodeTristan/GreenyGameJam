@@ -14,6 +14,7 @@ public class DrawerPuzzle : MonoBehaviour
 
     public int checkpoints = 0;
     public GameObject pcPasswordPaper;
+    public GameObject pcPasswordPaperUI;
     public DialogueStarter afterDrawerDialog;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -30,6 +31,9 @@ public class DrawerPuzzle : MonoBehaviour
             checkpoints = 0;
             afterDrawerDialog.TriggerDialog();
             pcPasswordPaper.SetActive(true);
+            pcPasswordPaperUI.SetActive(true);
+            FindObjectOfType<RoomManager>().room1Comp = true;
+            drawerPuzzle.gameObject.SetActive(false);
         }
     }
     private void OnMouseDown()
