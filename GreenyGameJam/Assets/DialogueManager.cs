@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
     private Dialogue[] currentDialogs;
 
-    public DialogueStarter firstDialog;
     public Animator animator;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogText;
+    public Image picture;
 
     public float typeSpeed;
     public int dialogCount;
@@ -28,7 +28,6 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         sentences = new Queue<string>();
-        firstDialog.TriggerDialog();
     }
     void Update()
     {
@@ -43,8 +42,6 @@ public class DialogueManager : MonoBehaviour
                 canSkip = true;
                 yaziSkip = false;
             }
-
-
         }
     }
 
@@ -60,6 +57,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         nameText.text = dialog[dialogCount].name;
+        picture.sprite = dialog[dialogCount].sprite;
         sentences.Clear();
 
         foreach (string sentence in dialog[dialogCount].sentences)

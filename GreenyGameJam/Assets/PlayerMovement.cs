@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Drawer;
     public GameObject Alchemy;
     public float speed;
-    
+    public DialogueStarter firstDialog;
+
     private Rigidbody2D rb;
     private Inventory Inventory;
     private Collider2D collider;
@@ -21,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     private bool DrawerOpened = false;
     private bool AlchemyOpened = false;
 
+    private bool inBeginning = true;
+
 
     void Start()
     {
@@ -28,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
         Inventory = gameObject.GetComponent<Inventory>();
         collider = gameObject.GetComponent<Collider2D>();
         animator = gameObject.GetComponent<Animator>();
+
+        canmove = false;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -51,7 +57,15 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) > 1)
+            transform.position += new Vector3(1, 0, 0) * speed * Time.deltaTime;
+        else if (inBeginning && Mathf.Abs(transform.position.x - new Vector2(3, 0).x) <= 1)
+        {
+            inBeginning = false;
+            firstDialog.TriggerDialog();
+            canmove = true;
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if(onMasa)
             {

@@ -15,6 +15,14 @@ public class DialogueStarter : MonoBehaviour
     {
         manager = FindObjectOfType<DialogueManager>();
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.tag == "Player" && Input.GetKeyDown(KeyCode.Space))
+        {
+            TriggerDialog();
+        }
+    }
     public void TriggerDialog()
     {
         manager.maxDialogCount = dialog.Length;
