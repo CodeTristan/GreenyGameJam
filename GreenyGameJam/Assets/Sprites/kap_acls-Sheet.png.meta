@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kap_acls-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 10
+        width: 191
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd8955b1ee71a745995dced185f6e42
+      internalID: 1834140948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kap_acls-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 10
+        width: 190
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3705893f922d8408c57acc09d8a893
+      internalID: 1677006909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kap_acls-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 9
+        width: 190
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156aba3d1d993ee4dae79160102efb02
+      internalID: -1298293188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kap_acls-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 9
+        width: 191
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ede5f4f62ba64f9dde87759264113
+      internalID: 1296031177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kap_acls-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 10
+        width: 190
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d85c763ebcb8849852c6f56432d0f9
+      internalID: -1754043284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +243,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kap_acls-Sheet_0: 1834140948
+      kap_acls-Sheet_2: -1298293188
+      kap_acls-Sheet_4: -1754043284
+      kap_acls-Sheet_1: 1677006909
+      kap_acls-Sheet_3: 1296031177
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

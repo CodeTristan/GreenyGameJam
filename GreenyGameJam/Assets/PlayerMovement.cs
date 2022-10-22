@@ -10,11 +10,13 @@ public class PlayerMovement : MonoBehaviour
     public GameObject fadeOut;
     public float speed;
     public DialogueStarter firstDialog;
+    public Animator doorAnimator;
 
     private Rigidbody2D rb;
     private Inventory Inventory;
-    private Collider2D collider;
+    public Collider2D collider;
     private Animator animator;
+
 
     public bool canmove = true;
     private bool onMasa = false;
@@ -45,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
             onDrawer = true;
         else if (collision.tag == "Alchemy")
             onAlchemy = true;
+        else if (collision.tag == "Door")
+            doorAnimator.SetTrigger("openDoor");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -71,31 +75,7 @@ public class PlayerMovement : MonoBehaviour
             firstDialog.TriggerDialog();
             canmove = true;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if(onMasa)
-            {
-                collider.enabled = false;
-                Masa.SetActive(true);
-                Inventory.onMasa = true;
-                canmove = false;
-            }
-            if (onDrawer)
-            {
-                collider.enabled = false;
-                Drawer.SetActive(true);
-                canmove = false;
-                DrawerOpened = true;
-            }
-            if (onAlchemy)
-            {
-                collider.enabled = false;
-                Alchemy.SetActive(true);
-                canmove = false;
-                AlchemyOpened = true;
-                Inventory.onMasa = true;
-            }
-        }
+        
 
         if(Input.GetKeyDown(KeyCode.Escape))
         {
@@ -123,9 +103,34 @@ public class PlayerMovement : MonoBehaviour
 
 
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (onMasa)
+            {
+                collider.enabled = false;
+                Masa.SetActive(true);
+                Inventory.onMasa = true;
+                canmove = false;
+            }
+            if (onDrawer)
+            {
+                Drawer.SetActive(true);
+                canmove = false;
+                DrawerOpened = true;
+            }
+            if (onAlchemy)
+            {
+                collider.enabled = false;
+                Alchemy.SetActive(true);
+                canmove = false;
+                AlchemyOpened = true;
+                Inventory.onMasa = true;
+            }
+        }
     }
     void FixedUpdate()
     {
+        
         float horizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
         if (horizontal < 0)

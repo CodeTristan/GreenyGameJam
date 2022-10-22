@@ -32,10 +32,21 @@ public class DialogueStarter : MonoBehaviour
         }
     }
 
+    private void OnMouseDown()
+    {
+        if (FindObjectOfType<Inventory>().onMasa)
+            TriggerDialog();
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space) && playerTouched && !manager.InDialogue)
+        {
             TriggerDialog();
+            if (Context == "Drawer")
+                FindObjectOfType<PlayerMovement>().collider.enabled = false;
+        }
+            
     }
     public void TriggerDialog()
     {
@@ -44,9 +55,9 @@ public class DialogueStarter : MonoBehaviour
         manager.StartDialog(dialog, isThereChoiceAfterwards);
         manager.context = Context;
 
-        if(Context == "")
+        if(Context == "" || Context == "Drawer")
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 

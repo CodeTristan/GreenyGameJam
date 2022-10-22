@@ -6,6 +6,8 @@ public class Crafting : MonoBehaviour
 {
     public string itemName;
     public Sprite sprite;
+    public Sprite AlchemyFinalSprite;
+    public SpriteRenderer AlchemyObject;
     public int index;
 
     public Crafting otherCrafting;
@@ -77,6 +79,7 @@ public class Crafting : MonoBehaviour
             FindObjectOfType<Inventory>().RefleshInventoryUI();
             item.ItemName = "FinalFlask";
             item.sprite = finalFlashSprite;
+            AlchemyObject.sprite = AlchemyFinalSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             FindObjectOfType<Inventory>().RefleshInventoryUI();
         }

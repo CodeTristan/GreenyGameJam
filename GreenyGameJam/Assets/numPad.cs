@@ -8,6 +8,7 @@ public class numPad : MonoBehaviour
 {
     public TextMeshProUGUI text;
     public DialogueStarter afterPcDialog;
+    public string password;
     public void ButtonClick()
     {
         if(text.text.Length < 5)
@@ -21,6 +22,12 @@ public class numPad : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Close();
+    }
+
     public void Close()
     {
         gameObject.SetActive(false);
@@ -28,9 +35,10 @@ public class numPad : MonoBehaviour
 
     public void Confirm()
     {
-        if(text.text == "26950")
+        if(text.text == password)
         {
             afterPcDialog.TriggerDialog();
+            gameObject.SetActive(false);
         }
         else
         {

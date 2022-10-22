@@ -13,6 +13,8 @@ public class DrawerPuzzle : MonoBehaviour
     public int index;
 
     public int checkpoints = 0;
+    public GameObject pcPasswordPaper;
+    public DialogueStarter afterDrawerDialog;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.collider.tag == "DrawerButton")
@@ -25,7 +27,9 @@ public class DrawerPuzzle : MonoBehaviour
     {
         if(checkpoints >= 3)
         {
-            Debug.Log("WÝÝÝÝN");
+            checkpoints = 0;
+            afterDrawerDialog.TriggerDialog();
+            pcPasswordPaper.SetActive(true);
         }
     }
     private void OnMouseDown()
@@ -58,6 +62,7 @@ public class DrawerPuzzle : MonoBehaviour
         }
         else
         {
+            StopAllCoroutines();
             Debug.Log("Koymaya çalýþtýðýn þey çok büyük");
             StartCoroutine(error());
         }

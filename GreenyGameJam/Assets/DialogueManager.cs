@@ -27,6 +27,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("GameObjects")]
     public GameObject numPad;
+    public GameObject pcPasswordPaper;
+    public GameObject pcPasswordPaperUI;
 
     private void Start()
     {
@@ -45,6 +47,11 @@ public class DialogueManager : MonoBehaviour
                 canSkip = true;
                 yaziSkip = false;
             }
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            pcPasswordPaperUI.SetActive(false);
         }
     }
 
@@ -119,6 +126,11 @@ public class DialogueManager : MonoBehaviour
 
         if (context == "pcDialog")
             numPad.SetActive(true);
+        else if (context == "Drawer")
+            FindObjectOfType<PlayerMovement>().collider.enabled = true;
+        else if (context == "pcPasswordPaper")
+            pcPasswordPaperUI.SetActive(true);
+
 
     }
 

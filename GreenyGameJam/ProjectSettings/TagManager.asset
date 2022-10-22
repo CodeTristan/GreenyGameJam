@@ -11,6 +11,7 @@ TagManager:
   - DrawerButton
   - Alchemy
   - Polis
+  - Door
   layers:
   - Default
   - TransparentFX
