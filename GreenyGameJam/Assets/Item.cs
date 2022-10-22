@@ -9,6 +9,15 @@ public class Item : MonoBehaviour
 
     private Inventory Inventory;
 
+    public Item(string itemName, Sprite sprite)
+    {
+        this.sprite = sprite;
+        this.ItemName = itemName;
+    }
+    public Item()
+    {
+        
+    }
     private void Start()
     {
         Inventory = FindObjectOfType<Inventory>();

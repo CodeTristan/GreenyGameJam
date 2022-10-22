@@ -9,6 +9,7 @@ TagManager:
   - Drawer
   - DrawerPuzzle
   - DrawerButton
+  - Alchemy
   layers:
   - Default
   - TransparentFX

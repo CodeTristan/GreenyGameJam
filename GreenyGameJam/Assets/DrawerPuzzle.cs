@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using TMPro;
 public class DrawerPuzzle : MonoBehaviour
 {
-    
+    public TextMeshProUGUI ErrorText;
     public string pickedObject;
 
     public int length;
@@ -59,6 +59,17 @@ public class DrawerPuzzle : MonoBehaviour
         else
         {
             Debug.Log("Koymaya çalýþtýðýn þey çok büyük");
+            StartCoroutine(error());
         }
+    }
+
+    private IEnumerator error()
+    {
+        ErrorText.text = "Parça uyuþmuyor!!!";
+        ErrorText.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(2);
+
+        ErrorText.gameObject.SetActive(false);
     }
 }

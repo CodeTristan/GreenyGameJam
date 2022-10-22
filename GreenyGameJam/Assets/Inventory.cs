@@ -19,19 +19,23 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(Item item)
     {
+        RefleshInventoryUI();
         inventoryImages[index].gameObject.SetActive(true);
         inventoryImages[index].sprite = item.sprite;
         inventoryImages[index].gameObject.name = item.ItemName;
         index++;
         inventory.Add(item);
-        item.gameObject.SetActive(false);
+        if(item != null)
+            item.gameObject.SetActive(false);
         tempItem = null;
         tempObject = null;
         Debug.Log("envanter : " + inventory.Count);
+        
     }
 
     public void RefleshInventoryUI()
     {
+        index = 0;
         for (int i = 0; i < inventoryImages.Length; i++)
         {
             inventoryImages[i].gameObject.SetActive(false);
@@ -39,6 +43,7 @@ public class Inventory : MonoBehaviour
         int j = 0;
         foreach(Item item in inventory)
         {
+            index++;
             inventoryImages[j].gameObject.SetActive(true);
             inventoryImages[j].sprite = item.sprite;
             inventoryImages[j].gameObject.name = item.ItemName;

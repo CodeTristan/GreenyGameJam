@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject Masa;
     public GameObject Drawer;
+    public GameObject Alchemy;
     public float speed;
     
     private Rigidbody2D rb;
@@ -16,7 +17,9 @@ public class PlayerMovement : MonoBehaviour
     private bool canmove = true;
     private bool onMasa = false;
     private bool onDrawer = false;
+    private bool onAlchemy = false;
     private bool DrawerOpened = false;
+    private bool AlchemyOpened = false;
 
 
     void Start()
@@ -33,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
             onMasa = true;
         else if (collision.tag == "Drawer")
             onDrawer = true;
+        else if (collision.tag == "Alchemy")
+            onAlchemy = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -41,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
             onMasa = false;
         else if (collision.tag == "Drawer")
             onDrawer = false;
+        else if (collision.tag == "Alchemy")
+            onAlchemy = false;
     }
     private void Update()
     {
@@ -60,7 +67,14 @@ public class PlayerMovement : MonoBehaviour
                 canmove = false;
                 DrawerOpened = true;
             }
-
+            if (onAlchemy)
+            {
+                collider.enabled = false;
+                Alchemy.SetActive(true);
+                canmove = false;
+                AlchemyOpened = true;
+                Inventory.onMasa = true;
+            }
         }
 
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -78,7 +92,15 @@ public class PlayerMovement : MonoBehaviour
                 canmove = true;
                 DrawerOpened = false;
             }
-        
+            if (AlchemyOpened)
+            {
+                collider.enabled = true;
+                Alchemy.SetActive(false);
+                canmove = true;
+                AlchemyOpened = false;
+                Inventory.onMasa = false;
+            }
+
 
         }
     }
