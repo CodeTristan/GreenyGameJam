@@ -12,8 +12,15 @@ public class RoomManager : MonoBehaviour
 
     public GameObject room1;
     public GameObject room2;
+
+    bool firstTimeinRoom2 = true;
+    public DialogueStarter room2FirstDialog;
+
+    public GameObject player;
     private void Update()
     {
+        if (player.activeSelf == false)
+            player.SetActive(true);
         if(room1Alchemy && room1Comp)
         {
             room1Comp = false;
@@ -30,6 +37,11 @@ public class RoomManager : MonoBehaviour
         {
             room1.SetActive(false);
             room2.SetActive(true);
+            if(firstTimeinRoom2)
+            {
+                firstTimeinRoom2 = false;
+                room2FirstDialog.TriggerDialog();
+            }
         }
         else
         {

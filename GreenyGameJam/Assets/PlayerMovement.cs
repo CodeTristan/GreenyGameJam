@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public GameObject Masa;
+    public GameObject Masa2;
     public GameObject Drawer;
     public GameObject Alchemy;
     public GameObject fadeOut;
@@ -20,9 +21,12 @@ public class PlayerMovement : MonoBehaviour
 
 
     public bool canmove = true;
+
     private bool onMasa = false;
+    private bool onMasa2 = false;
     private bool onDrawer = false;
     private bool onAlchemy = false;
+
     public bool DrawerOpened = false;
     private bool AlchemyOpened = false;
 
@@ -56,8 +60,10 @@ public class PlayerMovement : MonoBehaviour
             onDrawer = true;
         else if (collision.tag == "Alchemy")
             onAlchemy = true;
-        else if (collision.tag == "Door" && FindObjectOfType<RoomManager>().room1Finished)
+        else if (collision.tag == "Door" && roomManager.room1Finished)
             doorAnimator.SetTrigger("openDoor");
+        else if (collision.tag == "Masa2")
+            onMasa2 = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -68,6 +74,8 @@ public class PlayerMovement : MonoBehaviour
             onDrawer = false;
         else if (collision.tag == "Alchemy")
             onAlchemy = false;
+        else if (collision.tag == "Masa2")
+            onMasa2 = false;
     }
     private void Update()
     {
@@ -92,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 collider.enabled = true;
                 Masa.SetActive(false);
+                Masa2.SetActive(false);
                 canmove = true;
             }
             if (DrawerOpened)
@@ -118,6 +127,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 collider.enabled = false;
                 Masa.SetActive(true);
+                Inventory.onMasa = true;
+                canmove = false;
+            }
+            if (onMasa2)
+            {
+                collider.enabled = false;
+                Masa2.SetActive(true);
                 Inventory.onMasa = true;
                 canmove = false;
             }
