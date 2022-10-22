@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Inventory Inventory;
     private Collider2D collider;
+    private Animator animator;
 
     private bool canmove = true;
     private bool onMasa = false;
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         Inventory = gameObject.GetComponent<Inventory>();
         collider = gameObject.GetComponent<Collider2D>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -84,8 +86,16 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
-        if(canmove)
+        if (horizontal < 0)
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        else
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+
+        if (canmove)
+        {
             transform.position += new Vector3(horizontal, 0,0);
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        }
 
     }
 
