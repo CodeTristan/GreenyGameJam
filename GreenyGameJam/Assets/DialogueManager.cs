@@ -25,6 +25,9 @@ public class DialogueManager : MonoBehaviour
     private bool yaziSkip;
     private string sentence;
 
+    [Header("GameObjects")]
+    public GameObject numPad;
+
     private void Start()
     {
         sentences = new Queue<string>();
@@ -113,6 +116,9 @@ public class DialogueManager : MonoBehaviour
         isThereChoice = false;
         InDialogue = false;
         FindObjectOfType<PlayerMovement>().canmove = true;
+
+        if (context == "pcDialog")
+            numPad.SetActive(true);
 
     }
 

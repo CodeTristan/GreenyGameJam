@@ -43,6 +43,11 @@ public class DialogueStarter : MonoBehaviour
         manager.dialogCount = 0;
         manager.StartDialog(dialog, isThereChoiceAfterwards);
         manager.context = Context;
+
+        if(Context == "")
+        {
+            Destroy(gameObject);
+        }
     }
 
    
