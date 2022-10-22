@@ -12,6 +12,7 @@ TagManager:
   - Alchemy
   - Polis
   - Door
+  - Wall
   layers:
   - Default
   - TransparentFX

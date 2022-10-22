@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Inventory Inventory;
     public Collider2D collider;
     private Animator animator;
+    private RoomManager roomManager;
 
 
     public bool canmove = true;
@@ -34,11 +35,19 @@ public class PlayerMovement : MonoBehaviour
         Inventory = gameObject.GetComponent<Inventory>();
         collider = gameObject.GetComponent<Collider2D>();
         animator = gameObject.GetComponent<Animator>();
+        roomManager = FindObjectOfType<RoomManager>();
 
         canmove = false;
         
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.collider.tag == "Door" && roomManager.room1Finished)
+        {
+            roomManager.ChangeRoom();
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Masa")

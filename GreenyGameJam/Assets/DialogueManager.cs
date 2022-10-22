@@ -29,6 +29,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject numPad;
     public GameObject pcPasswordPaper;
     public GameObject pcPasswordPaperUI;
+    public GameObject Room2Cutscene;
+    public DialogueStarter room2CutsceneDialog;
 
     private void Start()
     {
@@ -136,6 +138,15 @@ public class DialogueManager : MonoBehaviour
         {
             FindObjectOfType<Inventory>().inventory.Clear();
             FindObjectOfType<Inventory>().RefleshInventoryUI();
+        }
+        else if (context == "Room2Cutscene")
+        {
+            Room2Cutscene.SetActive(false);
+        }
+        else if (context == "Room2FirstTalk")
+        {
+            Room2Cutscene.SetActive(true);
+            room2CutsceneDialog.TriggerDialog();
         }
 
 
