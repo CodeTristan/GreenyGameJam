@@ -29,6 +29,28 @@ public class Inventory : MonoBehaviour
         tempObject = null;
         Debug.Log("envanter : " + inventory.Count);
     }
+
+    public void RefleshInventoryUI()
+    {
+        for (int i = 0; i < inventoryImages.Length; i++)
+        {
+            inventoryImages[i].gameObject.SetActive(false);
+        }
+        int j = 0;
+        foreach(Item item in inventory)
+        {
+            inventoryImages[j].gameObject.SetActive(true);
+            inventoryImages[j].sprite = item.sprite;
+            inventoryImages[j].gameObject.name = item.ItemName;
+            j++;
+        }
+    }
+    public void DeleteItem(int index)
+    {
+        inventory.RemoveAt(index);
+        index--;
+        RefleshInventoryUI();
+    }
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
         if(collider2D.tag == "Item")

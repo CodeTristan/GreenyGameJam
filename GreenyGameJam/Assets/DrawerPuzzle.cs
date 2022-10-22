@@ -4,26 +4,61 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class DrawerPuzzle : MonoBehaviour
 {
-    public GameObject[] shortWay;
-    public GameObject[] middleWay;
-    public GameObject[] LongWay;
-
-    public int index;
+    
     public string pickedObject;
+
+    public int length;
+
+    public DrawerPuzzle drawerPuzzle;
+    public int index;
+
+    public int checkpoints = 0;
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.collider.tag == "DrawerButton")
+        {
+            Destroy(collision.collider.gameObject);
+        }
+    }
 
     private void Update()
     {
-        if(EventSystem.current.currentSelectedGameObject.name == "short")
+        if(checkpoints >= 3)
         {
-            pickedObject = "short";
+            Debug.Log("WÝÝÝÝN");
         }
-        else if (EventSystem.current.currentSelectedGameObject.name == "medium")
+    }
+    private void OnMouseDown()
+    {
+        
+        pickedObject = drawerPuzzle.pickedObject;
+        if(pickedObject == "short" && length == 1)
         {
-            pickedObject = "medium";
+            if (gameObject.name == "kýsaÜst")
+                drawerPuzzle.checkpoints++;
+            gameObject.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, 255);
+            drawerPuzzle.pickedObject = "";
+            FindObjectOfType<Inventory>().DeleteItem(drawerPuzzle.index);
         }
-        else if (EventSystem.current.currentSelectedGameObject.name == "long")
+        else if (pickedObject == "middle" && length == 2)
         {
-            pickedObject = "long";
+            if (gameObject.name == "Sol" || gameObject.name == "Sað")
+                drawerPuzzle.checkpoints++;
+            gameObject.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, 255);
+            drawerPuzzle.pickedObject = "";
+            FindObjectOfType<Inventory>().DeleteItem(drawerPuzzle.index);
+        }
+        else if (pickedObject == "long" && length == 3)
+        {
+            if (gameObject.name == "Üst")
+                drawerPuzzle.checkpoints++;
+            gameObject.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, 255);
+            drawerPuzzle.pickedObject = "";
+            FindObjectOfType<Inventory>().DeleteItem(drawerPuzzle.index);
+        }
+        else
+        {
+            Debug.Log("Koymaya çalýþtýðýn þey çok büyük");
         }
     }
 }
