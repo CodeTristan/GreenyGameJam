@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject pcPasswordPaper;
     public GameObject pcPasswordPaperUI;
     public GameObject Room2Cutscene;
+    public GameObject Room2AynaMinigame;
     public DialogueStarter room2CutsceneDialog;
 
     private void Start()
@@ -147,6 +148,10 @@ public class DialogueManager : MonoBehaviour
         {
             Room2Cutscene.SetActive(true);
             room2CutsceneDialog.TriggerDialog();
+        }
+        else if (context == "room2Ayna")
+        {
+            Room2AynaMinigame.SetActive(true);
         }
 
 
