@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 41904575}
   m_Layer: 0
   m_Name: Blue
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -446,6 +446,7 @@ MonoBehaviour:
   ItemName: Blue
   sprite: {fileID: 21300000, guid: c993a5f193753144ebb72e5864d05262, type: 3}
   count: 5
+  Inventory: {fileID: 1404564127}
 --- !u!61 &41904575
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -910,7 +911,7 @@ GameObject:
   - component: {fileID: 105825863}
   m_Layer: 0
   m_Name: Red
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -998,6 +999,7 @@ MonoBehaviour:
   ItemName: Red
   sprite: {fileID: 21300000, guid: 9e5f1839a9c22934baf4eecca260d76b, type: 3}
   count: 5
+  Inventory: {fileID: 1404564127}
 --- !u!61 &105825863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1361,7 +1363,6 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
-  craft2: 0
 --- !u!61 &128709613
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2744,6 +2745,7 @@ MonoBehaviour:
   ItemName: Dal
   sprite: {fileID: 21300000, guid: 6c9f8500f3a24af459cb0dcf2bffdf7a, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!1 &354837068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2931,6 +2933,7 @@ MonoBehaviour:
   ItemName: long
   sprite: {fileID: 21300000, guid: 775c7bd71485f87409825198c0b62f11, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!61 &365405126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3108,7 +3111,7 @@ GameObject:
   - component: {fileID: 382209929}
   m_Layer: 0
   m_Name: Sodyum
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3143,6 +3146,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 2
   hoverText: {fileID: 793851054}
@@ -3231,7 +3236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382209924}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -3239,6 +3244,7 @@ MonoBehaviour:
   ItemName: Sodyum
   sprite: {fileID: 21300000, guid: ac2193b7c18efc645a0b89c550b46ff4, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &391967281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,7 +3344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &430567243
 Transform:
   m_ObjectHideFlags: 0
@@ -3647,7 +3653,7 @@ GameObject:
   - component: {fileID: 467154359}
   m_Layer: 0
   m_Name: Sirke
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3682,6 +3688,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 4
   hoverText: {fileID: 793851054}
@@ -3770,7 +3778,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467154354}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -3778,6 +3786,7 @@ MonoBehaviour:
   ItemName: Sirke
   sprite: {fileID: 21300000, guid: 2638bbf030a8b9a4bb1b406be14aec6e, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &496931980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3812,6 +3821,7 @@ MonoBehaviour:
   ItemName: middle
   sprite: {fileID: 21300000, guid: 13f3023ae88a4b0418278dcca4ba9490, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!61 &496931982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3918,7 +3928,7 @@ GameObject:
   - component: {fileID: 502069837}
   - component: {fileID: 502069838}
   m_Layer: 0
-  m_Name: CraftLeft
+  m_Name: CraftLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3957,7 +3967,6 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
-  craft2: 1
 --- !u!61 &502069838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4212,9 +4221,10 @@ Transform:
   m_Children:
   - {fileID: 835057437}
   - {fileID: 760130540}
+  - {fileID: 1430547560}
+  - {fileID: 1491806552}
   - {fileID: 1128215354}
   - {fileID: 628948547}
-  - {fileID: 1430547560}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5309,9 +5319,8 @@ Transform:
   - {fileID: 1000125069}
   - {fileID: 1242823286}
   - {fileID: 1553403302}
-  - {fileID: 1491806552}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &628948548
 SpriteRenderer:
@@ -6409,6 +6418,7 @@ MonoBehaviour:
   ItemName: "CamK\u0131r\u0131k"
   sprite: {fileID: 21300000, guid: de758e679c226524ca79da883e212a74, type: 3}
   count: 3
+  Inventory: {fileID: 0}
 --- !u!1 &835057436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6800,7 +6810,7 @@ GameObject:
   - component: {fileID: 852204243}
   - component: {fileID: 852204244}
   m_Layer: 0
-  m_Name: CraftRight
+  m_Name: CraftRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6839,7 +6849,6 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
-  craft2: 1
 --- !u!61 &852204244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7096,7 +7105,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 128709612}
         m_TargetAssemblyTypeName: Crafting, Assembly-CSharp
-        m_MethodName: Craft
+        m_MethodName: Craft2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7418,7 +7427,7 @@ GameObject:
   - component: {fileID: 984159435}
   m_Layer: 0
   m_Name: Su
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7453,6 +7462,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 1
   hoverText: {fileID: 793851054}
@@ -7541,7 +7552,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984159430}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -7549,6 +7560,7 @@ MonoBehaviour:
   ItemName: Su
   sprite: {fileID: 21300000, guid: bd4cf434fe5dc4d4a98bee6ece94fab4, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &986782672
 GameObject:
   m_ObjectHideFlags: 0
@@ -7896,7 +7908,6 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
-  craft2: 0
 --- !u!61 &1016276178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8217,7 +8228,7 @@ GameObject:
   - component: {fileID: 1070616106}
   m_Layer: 0
   m_Name: Petrol
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8252,6 +8263,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 7
   hoverText: {fileID: 793851054}
@@ -8340,7 +8353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070616101}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -8348,6 +8361,7 @@ MonoBehaviour:
   ItemName: Petrol
   sprite: {fileID: 21300000, guid: 7f6303f89e7be484c9a5c9f6bf38dc4a, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &1071125920
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +8492,7 @@ MonoBehaviour:
   ItemName: long
   sprite: {fileID: 21300000, guid: 775c7bd71485f87409825198c0b62f11, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!61 &1075927946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8819,7 +8834,7 @@ Transform:
   - {fileID: 1367044401}
   - {fileID: 181107058}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1128215355
 MonoBehaviour:
@@ -9927,7 +9942,7 @@ GameObject:
   - component: {fileID: 1220010655}
   m_Layer: 0
   m_Name: Hidrojen
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9962,6 +9977,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 6
   hoverText: {fileID: 793851054}
@@ -10050,7 +10067,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220010650}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -10058,6 +10075,7 @@ MonoBehaviour:
   ItemName: Hidrojen
   sprite: {fileID: 21300000, guid: 72655e2062cd2394faa6eb7815ce0afa, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &1223334157
 GameObject:
   m_ObjectHideFlags: 0
@@ -10500,6 +10518,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 1128215355}
   crafting: {fileID: 128709612}
   crafting2: {fileID: 1016276177}
+  crafting3: {fileID: 502069837}
+  crafting4: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 1
   hoverText: {fileID: 793851054}
@@ -10766,6 +10786,7 @@ MonoBehaviour:
   ItemName: short
   sprite: {fileID: 21300000, guid: 018e7b3cfd1aab240a43f4312c4eadde, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!61 &1252411698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10885,6 +10906,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 1128215355}
   crafting: {fileID: 128709612}
   crafting2: {fileID: 1016276177}
+  crafting3: {fileID: 502069837}
+  crafting4: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 3
   hoverText: {fileID: 793851054}
@@ -11603,6 +11626,7 @@ MonoBehaviour:
   ItemName: ip
   sprite: {fileID: 21300000, guid: 09fbe486657e6d44f9e8c16cc2e9a31b, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!1 &1299633616
 GameObject:
   m_ObjectHideFlags: 0
@@ -12975,7 +12999,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 2
 --- !u!114 &1404564126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13329,7 +13353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1430547560
 Transform:
   m_ObjectHideFlags: 0
@@ -13354,7 +13378,7 @@ Transform:
   - {fileID: 1220010651}
   - {fileID: 1070616102}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1430547561
 SpriteRenderer:
@@ -13517,7 +13541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491806551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06819916, y: -0.1624, z: 0}
+  m_LocalPosition: {x: -0.06819916, y: -0.012400001, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13531,8 +13555,8 @@ Transform:
   - {fileID: 1016276175}
   - {fileID: 313661809}
   - {fileID: 1326872176}
-  m_Father: {fileID: 628948547}
-  m_RootOrder: 6
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1491806553
 SpriteRenderer:
@@ -13679,6 +13703,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 1128215355}
   crafting: {fileID: 128709612}
   crafting2: {fileID: 1016276177}
+  crafting3: {fileID: 502069837}
+  crafting4: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 4
   hoverText: {fileID: 793851054}
@@ -15465,7 +15491,7 @@ GameObject:
   - component: {fileID: 1619444617}
   m_Layer: 0
   m_Name: "\xC7amur"
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15500,6 +15526,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 0
   hoverText: {fileID: 793851054}
@@ -15588,7 +15616,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619444612}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -15596,6 +15624,7 @@ MonoBehaviour:
   ItemName: "\xC7amur"
   sprite: {fileID: 21300000, guid: f41726fecf7f7bb4fbc27b07da2fe317, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &1620248875
 GameObject:
   m_ObjectHideFlags: 0
@@ -15696,7 +15725,7 @@ GameObject:
   - component: {fileID: 1637646884}
   m_Layer: 0
   m_Name: Tuz
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15731,6 +15760,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 3
   hoverText: {fileID: 793851054}
@@ -15819,7 +15850,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637646879}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -15827,6 +15858,7 @@ MonoBehaviour:
   ItemName: Tuz
   sprite: {fileID: 21300000, guid: cb4ec67460f89454d82df40cfe71c055, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &1645082340
 GameObject:
   m_ObjectHideFlags: 0
@@ -16142,6 +16174,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 1128215355}
   crafting: {fileID: 128709612}
   crafting2: {fileID: 1016276177}
+  crafting3: {fileID: 502069837}
+  crafting4: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 2
   hoverText: {fileID: 793851054}
@@ -16301,6 +16335,7 @@ MonoBehaviour:
   ItemName: short
   sprite: {fileID: 21300000, guid: 018e7b3cfd1aab240a43f4312c4eadde, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!1 &1695496689
 GameObject:
   m_ObjectHideFlags: 0
@@ -16758,7 +16793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1732818285
 Transform:
   m_ObjectHideFlags: 0
@@ -16819,6 +16854,7 @@ MonoBehaviour:
   ItemName: short
   sprite: {fileID: 21300000, guid: 018e7b3cfd1aab240a43f4312c4eadde, type: 3}
   count: 0
+  Inventory: {fileID: 0}
 --- !u!61 &1735717187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17100,7 +17136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1797862716
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17568,7 +17604,7 @@ GameObject:
   - component: {fileID: 1913016735}
   m_Layer: 0
   m_Name: Yellow
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17656,6 +17692,7 @@ MonoBehaviour:
   ItemName: Yellow
   sprite: {fileID: 21300000, guid: 7bf433be99a938d4094785d273fbbadb, type: 3}
   count: 5
+  Inventory: {fileID: 1404564127}
 --- !u!61 &1913016735
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18074,7 +18111,7 @@ GameObject:
   - component: {fileID: 1965763796}
   m_Layer: 0
   m_Name: Oksijen
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18109,6 +18146,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 0}
   crafting: {fileID: 502069837}
   crafting2: {fileID: 852204243}
+  crafting3: {fileID: 0}
+  crafting4: {fileID: 0}
   player: {fileID: 1404564126}
   index: 5
   hoverText: {fileID: 793851054}
@@ -18197,7 +18236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965763791}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
@@ -18205,6 +18244,7 @@ MonoBehaviour:
   ItemName: Oksijen
   sprite: {fileID: 21300000, guid: c28fb1e7d71dc794c89e29a02ce5ed95, type: 3}
   count: 5
+  Inventory: {fileID: 0}
 --- !u!1 &1970474273
 GameObject:
   m_ObjectHideFlags: 0
@@ -18568,6 +18608,8 @@ MonoBehaviour:
   drawerPuzzle: {fileID: 1128215355}
   crafting: {fileID: 128709612}
   crafting2: {fileID: 1016276177}
+  crafting3: {fileID: 502069837}
+  crafting4: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 0
   hoverText: {fileID: 793851054}

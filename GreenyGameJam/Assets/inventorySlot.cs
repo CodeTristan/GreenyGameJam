@@ -10,6 +10,8 @@ public class inventorySlot : MonoBehaviour
     public DrawerPuzzle drawerPuzzle;
     public Crafting crafting;
     public Crafting crafting2;
+    public Crafting crafting3;
+    public Crafting crafting4;
     public PlayerMovement player;
     public int index;
 
@@ -27,10 +29,7 @@ public class inventorySlot : MonoBehaviour
         hoverText.gameObject.SetActive(false);
     }
 
-    private void OnMouseDown()
-    {
-        SendInfo();
-    }
+
     public void SendInfo()
     {
         if(player.DrawerOpened)
@@ -41,13 +40,15 @@ public class inventorySlot : MonoBehaviour
 
         if(crafting.itemName == "")
         {
-            Debug.Log(1);
+            
             try
             {
+                Debug.Log("try");
                 crafting.sprite = gameObject.GetComponent<Image>().sprite;
             }
             catch(NullReferenceException)
             {
+                Debug.Log("catch");
                 crafting.sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
             }
             crafting.itemName = gameObject.name;
@@ -58,14 +59,41 @@ public class inventorySlot : MonoBehaviour
         {
             try
             {
-                crafting.sprite = gameObject.GetComponent<Image>().sprite;
+                crafting2.sprite = gameObject.GetComponent<Image>().sprite;
             }
             catch (NullReferenceException)
             {
-                crafting.sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
+                crafting2.sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
             }
             crafting2.itemName = gameObject.name;
             crafting2.index = index;
+        }
+
+        if (crafting3.itemName == "")
+        {
+            try
+            {
+                crafting3.sprite = gameObject.GetComponent<Image>().sprite;
+            }
+            catch (NullReferenceException)
+            {
+                crafting3.sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
+            }
+            crafting3.itemName = gameObject.name;
+            crafting3.index = index;
+        }
+        else if (crafting4.itemName == "")
+        {
+            try
+            {
+                crafting4.sprite = gameObject.GetComponent<Image>().sprite;
+            }
+            catch (NullReferenceException)
+            {
+                crafting4.sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
+            }
+            crafting4.itemName = gameObject.name;
+            crafting4.index = index;
         }
     }
 }

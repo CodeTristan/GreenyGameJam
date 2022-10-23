@@ -27,7 +27,6 @@ public class Crafting : MonoBehaviour
     public GameObject[] flasks;
 
     public Item item;
-    public bool craft2;
     private void OnMouseDown()
     {
         if(itemName != "")
@@ -36,9 +35,14 @@ public class Crafting : MonoBehaviour
             item = new Item();
             gameObject.GetComponentInChildren<SpriteRenderer>().sprite = sprite;
 
-            if(!craft2)
-                FindObjectOfType<Inventory>().DeleteItem(index);
+            FindObjectOfType<Inventory>().DeleteItem(index);
         }
+    }
+
+    private void Update()
+    {
+        if (!otherCrafting.gameObject.activeSelf)
+            otherCrafting.gameObject.SetActive(true);
     }
     public void Craft()
     {
@@ -135,6 +139,10 @@ public class Crafting : MonoBehaviour
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[3] = true; //?
             flasks[3].SetActive(true); //?
+        }
+        else
+        {
+            Debug.Log("Zort");
         }
 
         itemName = "";

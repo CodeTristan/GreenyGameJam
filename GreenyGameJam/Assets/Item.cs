@@ -8,7 +8,7 @@ public class Item : MonoBehaviour
     public Sprite sprite;
     public int count;
 
-    private Inventory Inventory;
+    public Inventory Inventory;
 
 
 
@@ -21,13 +21,13 @@ public class Item : MonoBehaviour
     {
         
     }
-    private void Start()
+    private void OnEnable()
     {
         Inventory = FindObjectOfType<Inventory>();
     }
     private void OnMouseOver()
     {
-        if(Input.GetMouseButtonDown(0) && Inventory.onMasa)
+        if(Input.GetMouseButtonDown(0) && Inventory.onMasa && gameObject.tag == "Item")
         {
             if (Inventory.index <= 4)
             {
