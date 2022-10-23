@@ -103,11 +103,11 @@ public class DialogueManager : MonoBehaviour
         {
             sentence = sentences.Dequeue();
             StopAllCoroutines();
-            if (currentDialogs[dialogCount].sentences.SoundName != "" && currentDialogs[dialogCount].sentences.soundPlayed == false)
+            /*if (currentDialogs[dialogCount].sentences.SoundName != "" && currentDialogs[dialogCount].sentences.soundPlayed == false)
             {
                 FindObjectOfType<SoundManager>().Play(currentDialogs[dialogCount].sentences.SoundName);
                 currentDialogs[dialogCount].sentences.soundPlayed = true;
-            }
+            }*/
             StartCoroutine(TypeSentence(sentence));
         }
     }

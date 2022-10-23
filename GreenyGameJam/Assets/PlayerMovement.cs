@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     public bool canmove = true;
+    private bool startedMoving = false;
 
     private bool onMasa = false;
     private bool onMasa2 = false;
@@ -54,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         if(collision.collider.tag == "Door" && roomManager.room1Finished)
         {
             roomManager.ChangeRoom();
+            FindObjectOfType<SoundManager>().Play("Teleport");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -181,7 +183,17 @@ public class PlayerMovement : MonoBehaviour
     {
         
         float horizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        if(Mathf.Abs(horizontal) > 0 && startedMoving)
+        {
+            startedMoving = false;
+            FindObjectOfType<SoundManager>().Play("Yürüme");
 
+        }
+        if(horizontal == 0)
+        {
+            startedMoving = true;
+            FindObjectOfType<SoundManager>().StopPlaying("Yürüme");
+        }
         if (horizontal < 0)
             transform.rotation = Quaternion.Euler(0, 180, 0);
         else
