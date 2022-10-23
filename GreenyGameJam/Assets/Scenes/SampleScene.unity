@@ -251,11 +251,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &8236717
@@ -335,11 +337,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &41904571
@@ -522,11 +526,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &50700860
@@ -1755,11 +1761,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &238959529
@@ -2133,11 +2141,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &289330240
@@ -2267,76 +2277,91 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: "David (Kocas\u0131)"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   dialogFinished: 0
 --- !u!1 &311706597
@@ -2851,11 +2876,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &356549217
@@ -6040,6 +6067,7 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise Von Dornis
     sentences:
@@ -6047,6 +6075,7 @@ MonoBehaviour:
       - 
       - "Ne olmu\u015F burada?"
       SoundName: "neolmu\u015Fburada"
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
     sentences:
@@ -6054,6 +6083,7 @@ MonoBehaviour:
       - 
       - "Dedektif korkun\xE7 klasik bir intihar vakas\u0131."
       SoundName: "dedektifkorkun\xE7"
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
     sentences:
@@ -6061,36 +6091,61 @@ MonoBehaviour:
       - 
       - "Klasik intihar vakas\u0131, bu \xE7\u0131kar\u0131m\u0131 nas\u0131l yapt\u0131n?"
       SoundName: "klasikintiharbakas\u0131"
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Silah elinde, ba\u015F\u0131ndan vurulmu\u015F, kan\u0131n s\u0131\xE7ramas\u0131
+        da \u015F\xFCpheli g\xF6z\xFCkm\xFCyor."
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Olay yeri incelemesi tamamlanmadan b\xF6yle bir \xE7\u0131kar\u0131m yapma,
+        ayr\u0131ca profes\xF6r hangi elini kullan\u0131yor?"
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - Bunu bilmiyoruz.
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Robo
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Merhaba Dedektif, ben yard\u0131mc\u0131 asistan\u0131n Robo. Bu yolculuk
+        boyunca sana ben yard\u0131mc\u0131 olaca\u011F\u0131m. Ve seninle \xF6nemli
+        bir su\xE7u \xE7\xF6zece\u011Fiz."
+      - "\xD6ncelikle devletin zamanda yolculuk program\u0131 kapsam\u0131nda hareket
+        edebilece\u011Fini belirtmek istiyorum. \u0130ste\u011Fine g\xF6re de\u011Fil
+        sadece gelen ipu\xE7lar\u0131na g\xF6re uygun zamana gidebiliriz."
+      - "Envanterine ipu\xE7lar\u0131n\u0131 ve gerekli e\u015Fyalar\u0131 toplayabilirsin,
+        sadece unutma ENVANTER\u0130NDEK\u0130 E\u015EYALARI KULLANMADAN BA\u015EKA
+        E\u015EYA ALAMAZSIN. "
+      - "KISITLI KAYNA\u011EIN OLDU\u011EUNU ASLA UNUTMAMALISIN."
+      - "E\u015Fyalar\u0131 ve ipu\xE7lar\u0131n\u0131 yanlar\u0131na giderek rahatl\u0131kla
+        toplayabilirsin."
+      - "Baz\u0131 noktalarda kar\u015F\u0131na puzzlelar \xE7\u0131kacak ve ben
+        sana onlar\u0131 anlataca\u011F\u0131m. \u0130pucu hakk\u0131n her seviyede
+        sadece 2 tane, bunu akl\u0131ndan \xE7\u0131karma.\r\n"
+      - "Seninle \xE7al\u0131\u015Faca\u011F\u0131m\u0131z i\xE7in olduk\xE7a heyecanl\u0131y\u0131m,
+        hadi ba\u015Flayal\u0131m!"
+      - "Bu oday\u0131 aramaya istedi\u011Fin yerden ba\u015Flayabilirsin. Totalde
+        \xF6nemli 3 alan\u0131m\u0131z var; masa, kimya masas\u0131 ve zemin."
+      - "Alabilece\u011Fin e\u015Fyalar\u0131 yanlar\u0131na gidince anlayacaks\u0131n.
+        Kolay gelsin, ben buraday\u0131m."
       SoundName: 
-    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
-  - name: Denise
-    sentences:
-      sentences: []
-      SoundName: 
-    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
-  - name: Robo
-    sentences:
-      sentences: []
-      SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!4 &733060081
@@ -6642,11 +6697,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &844796952
@@ -7677,11 +7734,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1000125068
@@ -7736,11 +7795,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1000125071
@@ -8076,6 +8137,7 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
@@ -8083,6 +8145,7 @@ MonoBehaviour:
       - 
       - "Ne olmu\u015F burada?"
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   dialogFinished: 0
 --- !u!61 &1024474398
@@ -8894,11 +8957,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1131115966
@@ -9121,11 +9186,19 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
-  - name: Denise Von Dornis
+  - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Bunun bir intihar olmad\u0131\u011F\u0131 a\u015Fikar, kad\u0131n \xF6nce
+        bo\u011Fulmaya \xE7al\u0131\u015Fm\u0131\u015F."
+      - "T\u0131rnaklar\u0131n\u0131n aras\u0131nda kimyasal kal\u0131nt\u0131lar\u0131
+        var.\r\n"
+      - "Oday\u0131 inceleyip daha fazla ipucu toplamaya devam etsem iyi olacak."
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1157619895
@@ -10246,11 +10319,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1242823288
@@ -11329,21 +11404,25 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1268196363
@@ -11473,11 +11552,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1285150474
@@ -12241,11 +12322,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Defter
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   dialogFinished: 0
 --- !u!61 &1326872178
@@ -13300,21 +13383,25 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1430547559
@@ -13929,11 +14016,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Robo
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1530785244
@@ -14178,31 +14267,37 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: "Kad\u0131n"
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1553403304
@@ -15648,11 +15743,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1620248878
@@ -17454,11 +17551,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1886274034
@@ -18667,11 +18766,13 @@ MonoBehaviour:
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 0}
   - name: Denise
     sentences:
       sentences: []
       SoundName: 
+      soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &2006793903
