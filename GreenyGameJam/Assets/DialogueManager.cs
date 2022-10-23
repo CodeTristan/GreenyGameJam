@@ -76,7 +76,7 @@ public class DialogueManager : MonoBehaviour
         
         sentences.Clear();
 
-        foreach (string sentence in dialog[dialogCount].sentences)
+        foreach (string sentence in dialog[dialogCount].sentences.sentences)
         {
             sentences.Enqueue(sentence);
         }
