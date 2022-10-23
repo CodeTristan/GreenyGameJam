@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Mirror0 : MonoBehaviour
 {
-    Image L1,L2, L3, L4;
+    Image L1,L2, L3, L4, F1;
 
     private void Start()
     {
@@ -14,6 +14,7 @@ public class Mirror0 : MonoBehaviour
         L2 = GameObject.FindWithTag("L2").GetComponent<Image>();
         L3 = GameObject.FindWithTag("L3").GetComponent<Image>();
         L4 = GameObject.FindWithTag("L4").GetComponent<Image>();
+        F1 = GameObject.FindWithTag("F1").GetComponent<Image>();
 
     }
 
@@ -34,6 +35,7 @@ public class Mirror0 : MonoBehaviour
             L2.enabled = false;
             L3.enabled = false;
             L4.enabled = false;
+            F1.color = Color.white;
         }
     }
 }

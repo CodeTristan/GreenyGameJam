@@ -14,6 +14,15 @@ TagManager:
   - Door
   - Masa2
   - "DeneyMasas\u0131"
+  - L1
+  - L2
+  - L3
+  - L4
+  - L11
+  - L22
+  - L33
+  - L44
+  - F1
   layers:
   - Default
   - TransparentFX
