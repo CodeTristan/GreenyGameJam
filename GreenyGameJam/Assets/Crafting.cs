@@ -18,6 +18,11 @@ public class Crafting : MonoBehaviour
     public Sprite orangeSprite;
     public Sprite finalFlashSprite;
 
+    public Sprite mudSprite;
+    public Sprite saltSprite;
+    public Sprite saltedWaterSprite;
+    public Sprite sirkeSprite;
+
     public bool[] crafted;
     public GameObject[] flasks;
 
@@ -99,7 +104,7 @@ public class Crafting : MonoBehaviour
         if ((itemName == "Toprak" && otherCrafting.itemName == "Su") || (otherCrafting.itemName == "Toprak" && itemName == "Su"))
         {
             item.ItemName = "Çamur";
-            item.sprite = greenSprite; //todo : camurSprite
+            item.sprite = mudSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[0] = true;
             flasks[0].SetActive(true);
@@ -107,7 +112,7 @@ public class Crafting : MonoBehaviour
         else if ((itemName == "Na" && otherCrafting.itemName == "Cl") || (otherCrafting.itemName == "Na" && itemName == "Cl"))
         {
             item.ItemName = "Tuz";
-            item.sprite = purpleSprite; //to do : tuzSprite
+            item.sprite = saltSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[1] = true;
             flasks[1].SetActive(true);
@@ -115,7 +120,7 @@ public class Crafting : MonoBehaviour
         else if ((itemName == "Su" && otherCrafting.itemName == "Tuz") || (otherCrafting.itemName == "Su" && itemName == "Tuz"))
         {
             item.ItemName = "TuzluSu";
-            item.sprite = orangeSprite; //to do : tuzlusuSprite
+            item.sprite = saltedWaterSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[2] = true;
             flasks[2].SetActive(true);
@@ -123,7 +128,7 @@ public class Crafting : MonoBehaviour
         else if ((itemName == "Su" && otherCrafting.itemName == "AsedikAsit") || (otherCrafting.itemName == "Su" && itemName == "AsedikAsit"))
         {
             item.ItemName = "Sirke";
-            item.sprite = orangeSprite; //to do : sirkeSprite
+            item.sprite = sirkeSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[3] = true; //?
             flasks[3].SetActive(true); //?
@@ -136,14 +141,5 @@ public class Crafting : MonoBehaviour
         gameObject.GetComponentInChildren<SpriteRenderer>().sprite = sprite;
         otherCrafting.gameObject.GetComponentInChildren<SpriteRenderer>().sprite = sprite;
 
-        if (crafted[0] && crafted[1] && crafted[2] && crafted[3])
-        {
-            FindObjectOfType<Inventory>().inventory.Clear();
-            FindObjectOfType<Inventory>().RefleshInventoryUI();
-            item.ItemName = "FinalFlask2";
-            item.sprite = finalFlashSprite; // ?
-            FindObjectOfType<Inventory>().AddItem(item);
-            FindObjectOfType<Inventory>().RefleshInventoryUI();
-        }
     }
 }
