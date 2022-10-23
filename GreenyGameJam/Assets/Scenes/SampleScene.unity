@@ -255,7 +255,13 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Burada Grande petrol \u015Firketlerinin profes\xF6r\xFCn projesini deste\u011Fine
+        dair bir anla\u015Fma var."
+      - "S\xF6zle\u015Fmede iki madde \xE7izili bulu\u015Fun t\xFCm kullan\u0131m
+        haklar\u0131n\u0131n baronun \u015Firketinde de olaca\u011F\u0131 ve bulu\u015Fun
+        onlardan izin al\u0131nd\u0131ktan sonra duyurulmas\u0131 gerekti\u011Fi."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -341,7 +347,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - " Burada bir s\xFCr\xFC tehdit mesaj\u0131 var, profes\xF6r neyin pe\u015Findeydi
+        acaba?"
+      - "Bu bir \u015Feyin \u015Fifresine benziyor."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -534,18 +544,9 @@ MonoBehaviour:
       - 
       - "Bunu hemen laba g\xF6nderip ne oldu\u011Funa bakmam\u0131z laz\u0131m. Bunun
         bir cinayet oldu\u011Fu art\u0131k a\u015Fikar."
-      - "Saat gitmeme izin veriyor ama bir \u015Feyler eksik gibi, devam etmeli miyim."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
-  - name: Robo
-    sentences:
-      sentences:
-      - 
-      - "Her \u015Fey tamam, yola \xE7\u0131kabiliriz!"
-      SoundName: 
-      soundPlayed: 0
-    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &50700860
 GameObject:
@@ -602,6 +603,15 @@ MonoBehaviour:
       - "Burada bir s\xFCr\xFC tehdit mesaj\u0131 var, profes\xF6r neyin pe\u015Findeydi
         acaba?"
       - "Bu bir \u015Feyin \u015Fifresine benziyor."
+      SoundName: 
+      soundPlayed: 0
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+  - name: Denise
+    sentences:
+      sentences:
+      - 
+      - 
+      - 
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -2170,7 +2180,9 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Bilgisayardaki veriler silinmi\u015F."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -2306,85 +2318,120 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
-      SoundName: 
-      soundPlayed: 0
-    sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
-  - name: "David (Kocas\u0131)"
-    sentences:
-      sentences: []
-      SoundName: 
-      soundPlayed: 0
-    sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
-  - name: "Profes\xF6r"
-    sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Bu ara\u015Ft\u0131rma hayat\u0131m\u0131n projesi olacak hayat\u0131m,
+        \xF6zellikle bu \u015Fekilde bir petrol \u015Firketi taraf\u0131ndan destekleniyor
+        olmas\u0131 da\u2026"
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - " Asl\u0131nda ne kadar ses getirece\u011Fini g\xF6steriyor."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Evet! \xC7al\u0131\u015Fma bana profes\xF6rl\xFC\u011F\xFC de getirecek\u2026"
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Ki bu hep istedi\u011Fin bir \u015Feydi."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - 'Evet! '
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Benim \xE7al\u0131\u015Fmam kabul edilmedi."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Ne, nas\u0131l? Ahh, David ben bilmiyordum, \xF6z\xFCr dilerim belki de
+        bu kadar heyecanl\u0131 yakla\u015Fmamal\u0131yd\u0131m senin yan\u0131nda."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Sorun yok hayat\u0131m, seninle gurur duyuyorum, toplant\u0131n\u0131z ne
+        zaman."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "\u0130yi misin? Konu\u015Fabiliriz."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Sorun yok! Konuyu de\u011Fi\u015Ftirebilir miyiz l\xFCtfen! "
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "\u0130yi hat\u0131rlatt\u0131n, toplant\u0131 i\xE7in mesaj atmam gerek,
+        kad\u0131n\u0131n numaras\u0131n\u0131 ajandama yazm\u0131\u015F\u0131md\u0131r
+        umar\u0131m. "
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Unutma, bu durum \xF6nemli, ben odama ge\xE7iyorum, f\u0131rsat bulursam
+        yan\u0131na u\u011Frar\u0131m."
+      SoundName: 
+      soundPlayed: 0
+    sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
+  - name: "Profes\xF6r"
+    sentences:
+      sentences:
+      - 
+      - "Tamamd\u0131r can\u0131m, seni seviyorum."
+      SoundName: 
+      soundPlayed: 0
+    sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
+  - name: David
+    sentences:
+      sentences:
+      - 
+      - Ben de.
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
@@ -2905,7 +2952,9 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Telefonun ekran\u0131 kilitli."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -3396,7 +3445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &430567243
 Transform:
   m_ObjectHideFlags: 0
@@ -9001,7 +9050,9 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Ajanda da \xF6nemli bir \u015Fey yok."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -11596,7 +11647,9 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Saat gitmeme izin veriyor ama bir \u015Feyler eksik gibi, devam etmeli miyim?"
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -13427,22 +13480,25 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Robo
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "\u015Eu an zaman\u0131m\u0131zdan 15 sene \xF6nceye geldik, \xFCniversitede
+        bir konferans salonunday\u0131z, burada cinayeti ayd\u0131nlatmak ad\u0131na
+        yeni ke\u015Fifler yapabiliriz."
+      - "Bu arada labdan sonu\xE7lar geldi. Profes\xF6r petrol birle\u015Fenlerine
+        sahip bir bulgu elde etmi\u015F, yani petrole son verecek do\u011Fal bir
+        i\xE7erik!"
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "\u015E\xFCpheli listemi kabartan bir bulgu oldu."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
-  - name: Robo
-    sentences:
-      sentences: []
-      SoundName: 
-      soundPlayed: 0
-    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1430547559
 GameObject:
@@ -16946,7 +17002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1732818285
 Transform:
   m_ObjectHideFlags: 0
@@ -17640,7 +17696,9 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Bilgisayar\u0131n \u015Fifresini bulmam laz\u0131m."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
@@ -18855,7 +18913,9 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - name: Denise
     sentences:
-      sentences: []
+      sentences:
+      - 
+      - "Bu aynay\u0131 kullanabilirim."
       SoundName: 
       soundPlayed: 0
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}

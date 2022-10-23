@@ -45,7 +45,9 @@ public class PlayerMovement : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
         roomManager = FindObjectOfType<RoomManager>();
 
-        if(inBeginning)
+        FindObjectOfType<SoundManager>().StopPlaying("MainMusic");
+        FindObjectOfType<SoundManager>().StopPlaying("GerilimMüziði");
+        if (inBeginning)
             canmove = false;
         
     }
