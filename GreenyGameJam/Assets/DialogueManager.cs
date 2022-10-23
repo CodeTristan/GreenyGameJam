@@ -56,6 +56,7 @@ public class DialogueManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             pcPasswordPaperUI.SetActive(false);
+            Room2AynaMinigame.SetActive(false);
         }
     }
 
@@ -76,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         
         sentences.Clear();
 
-        foreach (string sentence in dialog[dialogCount].sentences)
+        foreach (string sentence in dialog[dialogCount].sentences.sentences)
         {
             sentences.Enqueue(sentence);
         }

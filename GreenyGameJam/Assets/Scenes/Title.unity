@@ -600,6 +600,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326486524}
   m_CullTransparentMesh: 1
+--- !u!1 &361343687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361343689}
+  - component: {fileID: 361343688}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &361343688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361343687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747eb73519a327f42a3b29e710da7565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Alchemy
+    clip: {fileID: 8300000, guid: a9fff1119623c244e938af033fa0020c, type: 3}
+    volume: 0.543
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "Kalabal\u0131kSes"
+    clip: {fileID: 8300000, guid: 2909bf2b6698bd747b3158d9f6ff937b, type: 3}
+    volume: 0.468
+    pitch: 0.97
+    loop: 0
+    source: {fileID: 0}
+  - name: "Ka\u011F\u0131t"
+    clip: {fileID: 8300000, guid: a51d5a06cbc6b2741a00cace2d1ceb5f, type: 3}
+    volume: 0.437
+    pitch: 0.99
+    loop: 0
+    source: {fileID: 0}
+  - name: "Y\xFCr\xFCme"
+    clip: {fileID: 8300000, guid: 42ec8f0460eae3e419b3b0ec5c6628cb, type: 3}
+    volume: 1
+    pitch: 1.02
+    loop: 0
+    source: {fileID: 0}
+  - name: Silah
+    clip: {fileID: 8300000, guid: 94dfab1cc7ef897478deb81945723966, type: 3}
+    volume: 0.74
+    pitch: 0.99
+    loop: 0
+    source: {fileID: 0}
+  - name: MainMusic
+    clip: {fileID: 8300000, guid: 081c3a0bf7acbdc4c8c296e9ddf60c17, type: 3}
+    volume: 0.634
+    pitch: 1.04
+    loop: 1
+    source: {fileID: 0}
+  - name: Teleport
+    clip: {fileID: 8300000, guid: c068b226b4fbb5345a581de4a81f85e4, type: 3}
+    volume: 0.664
+    pitch: 1.04
+    loop: 0
+    source: {fileID: 0}
+  - name: "GerilimM\xFCzi\u011Fi"
+    clip: {fileID: 8300000, guid: 3997c7f09c002c64fb73f85959a824c3, type: 3}
+    volume: 0.452
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: "neolmu\u015Fburada"
+    clip: {fileID: 8300000, guid: 34690b3635401614f95457a3c02837ee, type: 3}
+    volume: 0.823
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: "dedektifkorkun\xE7"
+    clip: {fileID: 8300000, guid: 67299c43b721d4944bbd54ce6054d40d, type: 3}
+    volume: 0.793
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: "klasikintiharvakas\u0131"
+    clip: {fileID: 8300000, guid: ab23500c29ad22d4687f2e8476b8409c, type: 3}
+    volume: 0.793
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+--- !u!4 &361343689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361343687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.12809, y: 1.0633174, z: -0.050307058}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537852997
 GameObject:
   m_ObjectHideFlags: 0

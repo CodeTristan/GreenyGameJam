@@ -7,8 +7,14 @@ public class Dialogue
 {
     public string name;
 
-    [TextArea(3, 10)]
-    public string[] sentences;
+    public sentence sentences;
 
     public Sprite sprite;
+}
+
+public class sentence
+{
+    [TextArea(3, 10)]
+    public string[] sentences;
+    public string SoundName;
 }

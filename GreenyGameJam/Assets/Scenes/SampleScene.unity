@@ -248,16 +248,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Grande petrol \u015Firketlerinin profes\xF6r\xFCn projesini deste\u011Fine
-      dair bir anla\u015Fmaya benzeyen bir belge buldum."
-    - "S\xF6zle\u015Fmede iki madde \xE7izili; bulu\u015Fun t\xFCm kullan\u0131m
-      haklar\u0131n\u0131n baronun \u015Firketinde de olaca\u011F\u0131 ve bulu\u015Fun
-      onlardan izin al\u0131nd\u0131ktan sonra duyurulmas\u0131 gerekti\u011Fi"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &8236717
@@ -334,14 +326,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Burada bir s\xFCr\xFC tehdit mesaj\u0131 var, profes\xF6r neyin pe\u015Findeydi
-      acaba?"
-    - "Bu bir \u015Feyin \u015Fifresine benziyor."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &41904571
@@ -521,13 +507,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Bunu hemen laba g\xF6nderip ne oldu\u011Funa bakmam\u0131z laz\u0131m. Bunun
-      bir cinayet oldu\u011Fu art\u0131k a\u015Fikar."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &50700860
@@ -1753,12 +1734,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Panoda bir no var. \xDCzerinde:\nTelefon \u015Fifresi: \"KAPI\" yaz\u0131yor."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &238959529
@@ -2129,12 +2106,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Bilgisayar s\u0131f\u0131rlanm\u0131\u015F. T\xFCm bilgiler gitmi\u015F."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &289330240
@@ -2261,84 +2234,34 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - "Bu ara\u015Ft\u0131rma hayat\u0131m\u0131n projesi olacak hayat\u0131m, \xF6zellikle
-      bu \u015Fekilde bir petrol \u015Firketi taraf\u0131ndan destekleniyor olmas\u0131
-      da\u2026"
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: "David (Kocas\u0131)"
-    sentences:
-    - 
-    - "Asl\u0131nda ne kadar ses getirece\u011Fini g\xF6steriyor."
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - "Evet! \xC7al\u0131\u015Fma bana profes\xF6rl\xFC\u011F\xFC de getirecek\u2026\r\n"
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - "Ki bu hep istedi\u011Fin bir \u015Feydi."
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - 'Evet! '
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - "Benim \xE7al\u0131\u015Fmam kabul edilmedi."
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - "Ne, nas\u0131l? Ahh, David ben bilmiyordum, \xF6z\xFCr dilerim belki de bu
-      kadar heyecanl\u0131 yakla\u015Fmamal\u0131yd\u0131m senin yan\u0131nda."
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - "Sorun yok hayat\u0131m, seninle gurur duyuyorum, toplant\u0131n\u0131z ne
-      zaman."
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - "\u0130yi misin? Konu\u015Fabiliriz.\r\n"
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - "Sorun yok! Konuyu de\u011Fi\u015Ftirebilir miyiz l\xFCtfen! "
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - " \u0130yi hat\u0131rlatt\u0131n, toplant\u0131 i\xE7in mesaj atmam gerek,
-      kad\u0131n\u0131n numaras\u0131n\u0131 ajandama yazm\u0131\u015F\u0131md\u0131r
-      umar\u0131m. "
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - "Unutma, bu durum \xF6nemli, ben odama ge\xE7iyorum, f\u0131rsat bulursam yan\u0131na
-      u\u011Frar\u0131m."
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
-    sentences:
-    - 
-    - "Tamamd\u0131r can\u0131m, seni seviyorum."
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
-    sentences:
-    - 
-    - Ben de.
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   dialogFinished: 0
 --- !u!1 &311706597
@@ -2850,12 +2773,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Telefon kitli. \u015Eifresini bulmam laz\u0131m."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &356549217
@@ -3244,7 +3163,7 @@ MonoBehaviour:
   ItemName: Sodyum
   sprite: {fileID: 21300000, guid: ac2193b7c18efc645a0b89c550b46ff4, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &391967281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,7 +3286,7 @@ Transform:
   - {fileID: 1675130184}
   - {fileID: 1285150475}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435259234
 GameObject:
@@ -3471,7 +3390,7 @@ RectTransform:
   - {fileID: 354837069}
   - {fileID: 1899104620}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3786,7 +3705,7 @@ MonoBehaviour:
   ItemName: Sirke
   sprite: {fileID: 21300000, guid: 2638bbf030a8b9a4bb1b406be14aec6e, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &496931980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,7 +4797,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599563772
 GameObject:
@@ -6037,73 +5956,24 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise Von Dornis
-    sentences:
-    - 
-    - "Ne olmu\u015F burada?"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
-    sentences:
-    - 
-    - "Dedektif, korkun\xE7 klasik bir intihar vakas\u0131.\r\n"
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Klasik intihar vakas\u0131, bu \xE7\u0131kar\u0131m\u0131 nas\u0131l yapt\u0131n?"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
-    sentences:
-    - 
-    - "Silah elinde, ba\u015F\u0131ndan vurulmu\u015F, kan\u0131n s\u0131\xE7ramas\u0131
-      da \u015F\xFCpheli g\xF6z\xFCkm\xFCyor."
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Olay yeri incelemesi tamamlanmadan b\xF6yle bir \xE7\u0131kar\u0131m yapma,
-      ayr\u0131ca profes\xF6r hangi elini kullan\u0131yor?"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
-    sentences:
-    - 
-    - Bunu bilmiyoruz...
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Robo
-    sentences:
-    - 
-    - "Merhaba Dedektif, ben yard\u0131mc\u0131 asistan\u0131n Robo. Bu yolculuk
-      boyunca sana ben yard\u0131mc\u0131 olaca\u011F\u0131m. Ve seninle \xF6nemli
-      bir su\xE7u \xE7\xF6zece\u011Fiz"
-    - "\xD6ncelikle devletin zamanda yolculuk program\u0131 kapsam\u0131nda hareket
-      edebilece\u011Fini belirtmek istiyorum. \u0130ste\u011Fine g\xF6re de\u011Fil
-      sadece gelen ipu\xE7lar\u0131na g\xF6re uygun zamana gidebiliriz."
-    - "Envanterine ipu\xE7lar\u0131n\u0131 ve gerekli e\u015Fyalar\u0131 toplayabilirsin,
-      sadece unutma ENVANTER\u0130NDEK\u0130 E\u015EYALARI KULLANMADAN BA\u015EKA
-      E\u015EYA ALAMAZSIN. "
-    - "KISITLI KAYNA\u011EIN OLDU\u011EUNU ASLA UNUTMAMALISIN."
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Tamam tamam be ba\u011F\u0131rma."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
-    sentences:
-    - 
-    - "E\u015Fyalar\u0131 ve ipu\xE7lar\u0131n\u0131 yanlar\u0131na giderek rahatl\u0131kla
-      toplayabilirsin."
-    - "Baz\u0131 noktalarda kar\u015F\u0131na puzzlelar \xE7\u0131kacak ve ben sana
-      onlar\u0131 anlataca\u011F\u0131m. \u0130pucu hakk\u0131n her seviyede sadece
-      2 tane, bunu akl\u0131ndan \xE7\u0131karma."
-    - "Seninle \xE7al\u0131\u015Faca\u011F\u0131m\u0131z i\xE7in olduk\xE7a heyecanl\u0131y\u0131m,
-      hadi ba\u015Flayal\u0131m!"
-    - "Bu oday\u0131 aramaya istedi\u011Fin yerden ba\u015Flayabilirsin. Totalde
-      \xF6nemli 3 alan\u0131m\u0131z var; masa, kimya masas\u0131 ve zemin."
-    - "Alabilece\u011Fin e\u015Fyalar\u0131 yanlar\u0131na gidince anlayacaks\u0131n.
-      Kolay gelsin, ben buraday\u0131m."
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!4 &733060081
@@ -6652,16 +6522,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Buradan baya bir bilgi edinebilece\u011Fimi d\xFC\u015F\xFCn\xFCyorum. "
-    - "Bilgisayara ve telefona bakmam\u0131z laz\u0131m, bir \u015Feyler bulaca\u011F\u0131m\u0131za
-      eminim"
-    - "\xC7ekmeceyi a\xE7sam iyi olacak. Buradan bir \u015Feyler \xE7\u0131kacak
-      gibi g\xF6z\xFCk\xFCyor. "
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &844796952
@@ -7560,7 +7422,7 @@ MonoBehaviour:
   ItemName: Su
   sprite: {fileID: 21300000, guid: bd4cf434fe5dc4d4a98bee6ece94fab4, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &986782672
 GameObject:
   m_ObjectHideFlags: 0
@@ -7689,20 +7551,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Robo
-    sentences:
-    - 
-    - "Selam, yine \xE7\xF6zmemiz gereken bir \u015Fey \xE7\u0131kt\u0131 demek\u2026"
-    - "Burada kay\u0131p \u015Fi\u015Feler var, profes\xF6r\xFCn yapt\u0131\u011F\u0131
-      kar\u0131\u015F\u0131m\u0131 anlamam\u0131z i\xE7in kay\u0131p \u015Fi\u015Felerin
-      yerine birle\u015Fenleri koymam\u0131z gerek."
-    - "Tarif profes\xF6r\xFCn defterinde bulunuyor, oraya bakarak kar\u0131\u015F\u0131m\u0131
-      yapabiliriz."
-    - "Kar\u0131\u015F\u0131mlar s\u0131n\u0131rl\u0131, unutma ihtiyac\u0131ndan
-      fazla deneme yaparsan s\u0131k\u0131nt\u0131ya d\xFC\u015Febilirsin. \u0130yi
-      \u015Fanslar!"
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1000125068
@@ -7754,12 +7604,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Bilgisayar a\xE7\u0131ld\u0131."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1000125071
@@ -8092,12 +7938,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: 
-    sentences:
-    - 
-    - 
     sprite: {fileID: 0}
   dialogFinished: 0
 --- !u!61 &1024474398
@@ -8361,7 +8203,7 @@ MonoBehaviour:
   ItemName: Petrol
   sprite: {fileID: 21300000, guid: 7f6303f89e7be484c9a5c9f6bf38dc4a, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &1071125920
 GameObject:
   m_ObjectHideFlags: 0
@@ -8906,12 +8748,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Ajandada \xF6nemli bir \u015Fey yazm\u0131yor."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1131115966
@@ -9131,16 +8969,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise Von Dornis
-    sentences:
-    - 
-    - "Bunun bir intihar olmad\u0131\u011F\u0131 a\u015Fikar, kad\u0131n \xF6nce
-      bo\u011Fulmaya \xE7al\u0131\u015Fm\u0131\u015F."
-    - "T\u0131rnaklar\u0131n\u0131n aras\u0131nda kimyasal kal\u0131nt\u0131lar\u0131
-      var."
-    - "Oday\u0131 inceleyip daha fazla ipucu toplamaya devam etsem iyi olacak.\r\n\t"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1157619895
@@ -10075,7 +9905,7 @@ MonoBehaviour:
   ItemName: Hidrojen
   sprite: {fileID: 21300000, guid: 72655e2062cd2394faa6eb7815ce0afa, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &1223334157
 GameObject:
   m_ObjectHideFlags: 0
@@ -10258,12 +10088,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Toplant\u0131 i\xE7in ara: \"1890245925"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1242823288
@@ -11339,31 +11165,13 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Robo
-    sentences:
-    - 
-    - "Merhaba detektif, burada yapacaklar\u0131n ileride kar\u015F\u0131na \xE7\u0131kacak
-      unutma diyerek s\xF6ze ba\u015Flayay\u0131m."
-    - "Haz\u0131r sen de e\u011Flenmeye ba\u015Flam\u0131\u015Fken ilgin\xE7 bir
-      soru soray\u0131m. S\xFCrekli duvarlarda y\xFCr\xFCyen robota ne denir?"
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - ...
-    - "Bunu yapmak zorunda m\u0131s\u0131n?"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
-    sentences:
-    - 
-    - "Wall-E, her seferinde iste\u011Fimi bitiriyorsun."
-    - "Burada kimyac\u0131 sensin! Her seferinde sadece iki \xFCr\xFCn\xFC birle\u015Ftirebilirsin."
-    - "Unutma, burada bulunan malzemeleri sadece iki kere kullanabilirsin, yani elde
-      etti\u011Fin \xFCr\xFCn\xFC sadece bir kez daha kullanabilirsin"
-    - Kolay gelsin!
-    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
+    sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1268196363
 GameObject:
@@ -11489,14 +11297,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "Saat gitmeme izin veriyor ama bir \u015Feyler eksik gibi, devam etmeli miyim?"
-    - "E\u011Fer kap\u0131dan \xE7\u0131karsam, bu zaman\u0131 terk edece\u011Fim.
-      Belki son kez g\xF6z atmak isteyebilirim."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1285150474
@@ -11849,8 +11651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec938e72d01faaf4fbf35873a871e9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pcbefore: {fileID: 0}
-  pcAfter: {fileID: 0}
+  pcbefore: {fileID: 1620248875}
+  pcAfter: {fileID: 1000125068}
 --- !u!61 &1305892609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12257,13 +12059,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Defter
-    sentences:
-    - 
-    - "Renklerin s\u0131ras\u0131 ve kar\u0131\u015Fma bi\xE7imleri \xE7ok \xF6nemlidir!
-      3 temel renkten 3 renk daha olu\u015Fturumal\u0131!"
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   dialogFinished: 0
 --- !u!61 &1326872178
@@ -12951,7 +12748,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1404564124
 BoxCollider2D:
@@ -13024,7 +12821,7 @@ MonoBehaviour:
   collider: {fileID: 0}
   canmove: 1
   DrawerOpened: 0
-  inBeginning: 0
+  inBeginning: 1
 --- !u!114 &1404564127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13132,7 +12929,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428960700
 GameObject:
@@ -13315,26 +13112,12 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Robo
-    sentences:
-    - 
-    - "\u015Eu an zaman\u0131m\u0131zdan 15 sene \xF6nceye geldik, \xFCniversitede
-      bir konferans salonunday\u0131z, burada cinayeti ayd\u0131nlatmak ad\u0131na
-      yeni ke\u015Fifler yapabiliriz."
-    - "Bu arada labdan sonu\xE7lar geldi. Profes\xF6r petrol birle\u015Fenlerine
-      sahip bir bulgu elde etmi\u015F, yani petrole son verecek do\u011Fal bir i\xE7erik!"
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - "\u015E\xFCpheli listemi kabartan bir bulgu oldu."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
-    sentences:
-    - 
-    - "Zaman: 2030 y\u0131l\u0131, bahar\r\n\r\nMekanlar: Profes\xF6r\xFCn eski s\u0131n\u0131f\u0131\r"
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1430547559
@@ -13946,23 +13729,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Robo
-    sentences:
-    - 
-    - "Merhaba dedektif, bir bulmayaca ho\u015F geldin. Zaman yolculu\u011Fun s\u0131ras\u0131nda
-      bunlarla \xE7ok kar\u015F\u0131la\u015Facaks\u0131n."
-    - "Bu bulmacada envanterine toplad\u0131\u011F\u0131n belirli\u011Fi uzunluktaki
-      d\xFCz cisimleri kullnarak butona basman gerekiyor."
-    - "\xC7ekmece b\xF6yle a\xE7\u0131lacak, bu profes\xF6rler ger\xE7ekten \xE7ok
-      tuhaf.\r\n"
-    - "Dikkat etmen gereken bir \u015Fey var. Envanterlerini do\u011Fru boyutlara
-      g\xF6re yerle\u015Ftirmen gerekiyor. Yoksa sisteme zarar verirsin ve ba\u015Ftan
-      ba\u015Flamak zorunda kal\u0131rs\u0131n."
-    - "Ve de sadece elindeki envanterleri kullanman gerek, ba\u015Ftan ba\u015Flarsan
-      yeniden envanter toplamak zorunda kal\u0131rs\u0131n."
-    - "Bol \u015Fans, ipucu istersen ben buraday\u0131m."
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1530785244
@@ -14204,34 +13972,16 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Ajandadan buldu\u011Fum numaray\u0131 arayay\u0131m."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
-    sentences:
-    - 
-    - Ring... Ring...
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
-    sentences:
-    - 
-    - Ring... Ring...
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: Denise
-    sentences:
-    - 
-    - Alo? Kimsiniz?
-    - Alo?
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: "Kad\u0131n"
-    sentences:
-    - 
-    - Alo? Kimsiniz?
-    - Alo?
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1553403304
@@ -15624,7 +15374,7 @@ MonoBehaviour:
   ItemName: "\xC7amur"
   sprite: {fileID: 21300000, guid: f41726fecf7f7bb4fbc27b07da2fe317, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &1620248875
 GameObject:
   m_ObjectHideFlags: 0
@@ -15674,14 +15424,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "2030 y\u0131l\u0131 model bilgisayarlar \u0131\u015F\u0131k g\xFCc\xFC ile
-      \xE7al\u0131\u015F\u0131r. Pili bitmi\u015F... Bir \u015Fekilde \u0131\u015F\u0131k
-      yans\u0131tmam laz\u0131m."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1620248878
@@ -15858,7 +15602,7 @@ MonoBehaviour:
   ItemName: Tuz
   sprite: {fileID: 21300000, guid: cb4ec67460f89454d82df40cfe71c055, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &1645082340
 GameObject:
   m_ObjectHideFlags: 0
@@ -16818,7 +16562,7 @@ Transform:
   - {fileID: 1299633618}
   - {fileID: 1368227829}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735717185
 GameObject:
@@ -17480,12 +17224,8 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Bilgisayar\u0131n \u015Fifresini bulmam gerek."
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1886274034
@@ -18244,7 +17984,7 @@ MonoBehaviour:
   ItemName: Oksijen
   sprite: {fileID: 21300000, guid: c28fb1e7d71dc794c89e29a02ce5ed95, type: 3}
   count: 5
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 1404564127}
 --- !u!1 &1970474273
 GameObject:
   m_ObjectHideFlags: 0
@@ -18691,13 +18431,9 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
-    sentences: []
     sprite: {fileID: 0}
   - name: Denise
-    sentences:
-    - 
-    - "Bu aynay\u0131 kullanarak bir \u015Feyler yapabilirim."
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &2006793903
 BoxCollider2D:
@@ -18917,7 +18653,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096005355
 GameObject:

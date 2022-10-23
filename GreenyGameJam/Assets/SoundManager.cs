@@ -29,7 +29,7 @@ public class SoundManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
-        Play("MainMusic");
+        Play("GerilimMüziði");
     }
 
     public void Play(string name)

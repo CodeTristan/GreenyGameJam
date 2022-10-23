@@ -126,7 +126,9 @@ public class Crafting : MonoBehaviour
         }
         else if ((itemName == "Su" && otherCrafting.itemName == "Tuz") || (otherCrafting.itemName == "Su" && itemName == "Tuz"))
         {
+            Debug.Log("Tuz 1");
             item.ItemName = "TuzluSu";
+            Debug.Log("Tuz 2");
             item.sprite = saltedWaterSprite;
             FindObjectOfType<Inventory>().AddItem(item);
             crafted[2] = true;
