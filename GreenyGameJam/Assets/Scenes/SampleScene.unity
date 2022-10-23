@@ -1202,6 +1202,7 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
+  craft2: 0
 --- !u!61 &128709613
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2755,8 +2756,10 @@ GameObject:
   - component: {fileID: 382209925}
   - component: {fileID: 382209927}
   - component: {fileID: 382209926}
+  - component: {fileID: 382209928}
+  - component: {fileID: 382209929}
   m_Layer: 0
-  m_Name: LEVEL2KAP (2)
+  m_Name: Sodyum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2794,6 +2797,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 2
+  hoverText: {fileID: 793851054}
 --- !u!212 &382209927
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2846,6 +2850,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &382209928
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382209924}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &382209929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382209924}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Sodyum
+  sprite: {fileID: 21300000, guid: ac2193b7c18efc645a0b89c550b46ff4, type: 3}
+  count: 5
 --- !u!1 &391967281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,8 +3295,10 @@ GameObject:
   - component: {fileID: 467154355}
   - component: {fileID: 467154357}
   - component: {fileID: 467154356}
+  - component: {fileID: 467154358}
+  - component: {fileID: 467154359}
   m_Layer: 0
-  m_Name: LEVEL2KAP (4)
+  m_Name: Sirke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3289,6 +3336,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 4
+  hoverText: {fileID: 793851054}
 --- !u!212 &467154357
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3341,6 +3389,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &467154358
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467154354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &467154359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467154354}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Sirke
+  sprite: {fileID: 21300000, guid: 2638bbf030a8b9a4bb1b406be14aec6e, type: 3}
+  count: 5
 --- !u!1 &496931980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,16 +3599,17 @@ MonoBehaviour:
   purpleSprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   orangeSprite: {fileID: 21300000, guid: 44ee6f8f288e1304fb186db21a000230, type: 3}
   finalFlashSprite: {fileID: 21300000, guid: 78ab779d6ccc6cd4191cba3427020713, type: 3}
-  mudSprite: {fileID: 0}
-  saltSprite: {fileID: 0}
-  saltedWaterSprite: {fileID: 0}
-  sirkeSprite: {fileID: 0}
+  mudSprite: {fileID: 21300000, guid: f41726fecf7f7bb4fbc27b07da2fe317, type: 3}
+  saltSprite: {fileID: 21300000, guid: cb4ec67460f89454d82df40cfe71c055, type: 3}
+  saltedWaterSprite: {fileID: 21300000, guid: 72655e2062cd2394faa6eb7815ce0afa, type: 3}
+  sirkeSprite: {fileID: 21300000, guid: 2638bbf030a8b9a4bb1b406be14aec6e, type: 3}
   crafted: 000000
   flasks:
   - {fileID: 314207147}
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
+  craft2: 1
 --- !u!61 &502069838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3606,7 +3696,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502069836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0282001, y: -0.37, z: 0}
+  m_LocalPosition: {x: -2.0282001, y: -0.5400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3772,6 +3862,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 835057437}
   - {fileID: 760130540}
   - {fileID: 1128215354}
   - {fileID: 1491806552}
@@ -4733,7 +4824,7 @@ Transform:
   - {fileID: 1242823286}
   - {fileID: 1553403302}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &628948548
 SpriteRenderer:
@@ -5557,8 +5648,143 @@ Transform:
   - {fileID: 1131115964}
   - {fileID: 1886274032}
   m_Father: {fileID: 519420032}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &793851053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793851056}
+  - component: {fileID: 793851055}
+  - component: {fileID: 793851054}
+  m_Layer: 0
+  m_Name: hoverText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &793851054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793851053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Uzun bir yaz\u0131 gibi"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ca925a9efd1f8ed4f94f31aa4f29f1ee, type: 2}
+  m_sharedMaterial: {fileID: 3096811001891850738, guid: ca925a9efd1f8ed4f94f31aa4f29f1ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 0.55
+  m_fontSizeBase: 0.55
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &793851055
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793851053}
+  m_CullTransparentMesh: 1
+--- !u!224 &793851056
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793851053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 835057437}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.1, y: -0.13}
+  m_SizeDelta: {x: 4.5909, y: 1.0683}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &796292276
 GameObject:
   m_ObjectHideFlags: 0
@@ -5633,6 +5859,107 @@ MonoBehaviour:
   ItemName: "CamK\u0131r\u0131k"
   sprite: {fileID: 21300000, guid: de758e679c226524ca79da883e212a74, type: 3}
   count: 3
+--- !u!1 &835057436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 835057437}
+  - component: {fileID: 835057440}
+  - component: {fileID: 835057439}
+  - component: {fileID: 835057438}
+  m_Layer: 0
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &835057437
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835057436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 793851056}
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4.85, y: 0.93}
+  m_SizeDelta: {x: 6.37928, y: 2.49306}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &835057438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835057436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &835057439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835057436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &835057440
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835057436}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
 --- !u!1 &844246693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5952,16 +6279,17 @@ MonoBehaviour:
   purpleSprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   orangeSprite: {fileID: 21300000, guid: 44ee6f8f288e1304fb186db21a000230, type: 3}
   finalFlashSprite: {fileID: 21300000, guid: 78ab779d6ccc6cd4191cba3427020713, type: 3}
-  mudSprite: {fileID: 0}
-  saltSprite: {fileID: 0}
-  saltedWaterSprite: {fileID: 0}
-  sirkeSprite: {fileID: 0}
+  mudSprite: {fileID: 21300000, guid: f41726fecf7f7bb4fbc27b07da2fe317, type: 3}
+  saltSprite: {fileID: 21300000, guid: cb4ec67460f89454d82df40cfe71c055, type: 3}
+  saltedWaterSprite: {fileID: 21300000, guid: 72655e2062cd2394faa6eb7815ce0afa, type: 3}
+  sirkeSprite: {fileID: 21300000, guid: 2638bbf030a8b9a4bb1b406be14aec6e, type: 3}
   crafted: 000000
   flasks:
   - {fileID: 314207147}
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
+  craft2: 1
 --- !u!61 &852204244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6048,7 +6376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852204242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6618004, y: -0.3199998, z: 0}
+  m_LocalPosition: {x: 1.6618004, y: -0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6169,7 +6497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000071526, y: -0.000000029802}
+  m_AnchoredPosition: {x: -0.00000071526, y: 0.16}
   m_SizeDelta: {x: 3.4935, y: 1.1602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871214845
@@ -6460,8 +6788,10 @@ GameObject:
   - component: {fileID: 984159431}
   - component: {fileID: 984159433}
   - component: {fileID: 984159432}
+  - component: {fileID: 984159434}
+  - component: {fileID: 984159435}
   m_Layer: 0
-  m_Name: LEVEL2KAP (1)
+  m_Name: Su
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6499,6 +6829,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 1
+  hoverText: {fileID: 793851054}
 --- !u!212 &984159433
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6551,6 +6882,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &984159434
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984159430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &984159435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984159430}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Su
+  sprite: {fileID: 21300000, guid: bd4cf434fe5dc4d4a98bee6ece94fab4, type: 3}
+  count: 5
 --- !u!1 &986782672
 GameObject:
   m_ObjectHideFlags: 0
@@ -6815,6 +7187,7 @@ MonoBehaviour:
   - {fileID: 1608245462}
   - {fileID: 1195578463}
   item: {fileID: 0}
+  craft2: 0
 --- !u!61 &1016276178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7131,8 +7504,10 @@ GameObject:
   - component: {fileID: 1070616102}
   - component: {fileID: 1070616104}
   - component: {fileID: 1070616103}
+  - component: {fileID: 1070616105}
+  - component: {fileID: 1070616106}
   m_Layer: 0
-  m_Name: LEVEL2KAP (7)
+  m_Name: Petrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7170,6 +7545,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 7
+  hoverText: {fileID: 793851054}
 --- !u!212 &1070616104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7222,6 +7598,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1070616105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070616101}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &1070616106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070616101}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Petrol
+  sprite: {fileID: 21300000, guid: 7f6303f89e7be484c9a5c9f6bf38dc4a, type: 3}
+  count: 5
 --- !u!1 &1075927944
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,8 +7840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.10820007, y: -2.72}
-  m_SizeDelta: {x: 6.37928, y: 2.49306}
+  m_AnchoredPosition: {x: -0.21, y: -2.86}
+  m_SizeDelta: {x: 6.0815, y: 2.2869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099989862
 MonoBehaviour:
@@ -7583,7 +8000,7 @@ Transform:
   - {fileID: 1367044401}
   - {fileID: 181107058}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1128215355
 MonoBehaviour:
@@ -8491,8 +8908,10 @@ GameObject:
   - component: {fileID: 1220010651}
   - component: {fileID: 1220010653}
   - component: {fileID: 1220010652}
+  - component: {fileID: 1220010654}
+  - component: {fileID: 1220010655}
   m_Layer: 0
-  m_Name: LEVEL2KAP (6)
+  m_Name: Hidrojen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8530,6 +8949,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 6
+  hoverText: {fileID: 793851054}
 --- !u!212 &1220010653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8582,6 +9002,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1220010654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220010650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &1220010655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220010650}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Hidrojen
+  sprite: {fileID: 21300000, guid: 72655e2062cd2394faa6eb7815ce0afa, type: 3}
+  count: 5
 --- !u!1 &1223334157
 GameObject:
   m_ObjectHideFlags: 0
@@ -9026,6 +9487,7 @@ MonoBehaviour:
   crafting2: {fileID: 1016276177}
   player: {fileID: 1404564126}
   index: 1
+  hoverText: {fileID: 793851054}
 --- !u!114 &1246795872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9410,6 +9872,7 @@ MonoBehaviour:
   crafting2: {fileID: 1016276177}
   player: {fileID: 1404564126}
   index: 3
+  hoverText: {fileID: 793851054}
 --- !u!114 &1254773471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9648,7 +10111,7 @@ GameObject:
   - component: {fileID: 1264996127}
   m_Layer: 0
   m_Name: MasaDeney
-  m_TagString: Untagged
+  m_TagString: "DeneyMasas\u0131"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9753,7 +10216,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264996123}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1377128a1a1b26d4f9c4d130074e3e68, type: 3}
   m_Name: 
@@ -9935,7 +10398,7 @@ GameObject:
   - component: {fileID: 1285150477}
   - component: {fileID: 1285150476}
   m_Layer: 0
-  m_Name: "\xE7ivi (1)"
+  m_Name: ip
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9949,8 +10412,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285150474}
   m_LocalRotation: {x: -0, y: -0, z: 0.00151497, w: 0.99999887}
-  m_LocalPosition: {x: 1.73, y: -1.61, z: -0.018208763}
-  m_LocalScale: {x: 0.34740865, y: 0.29547888, z: 0.4371}
+  m_LocalPosition: {x: 1.66, y: -1.49, z: -0.018208763}
+  m_LocalScale: {x: 0.6683795, y: 0.61687124, z: 0.4371}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 430567243}
@@ -9997,7 +10460,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 584616671, guid: 842f21e814b81a049a1c5bca0cdf1b7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09fbe486657e6d44f9e8c16cc2e9a31b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10021,18 +10484,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2601092, y: 4.597031}
+  m_Offset: {x: -0.1067338, y: 0.569373}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.6, y: 0.4}
+    oldSize: {x: 1.8, y: 1.6}
     newSize: {x: 2.7, y: 1.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.880482, y: 12.097867}
+  m_Size: {x: 3.5474992, y: 4.042548}
   m_EdgeRadius: 0
 --- !u!114 &1285150478
 MonoBehaviour:
@@ -10046,8 +10509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemName: long
-  sprite: {fileID: 21300000, guid: 775c7bd71485f87409825198c0b62f11, type: 3}
+  ItemName: ip
+  sprite: {fileID: 21300000, guid: 09fbe486657e6d44f9e8c16cc2e9a31b, type: 3}
   count: 0
 --- !u!1 &1299633616
 GameObject:
@@ -11160,6 +11623,7 @@ MonoBehaviour:
   Masa2: {fileID: 628948546}
   Drawer: {fileID: 1128215351}
   Alchemy: {fileID: 1491806551}
+  DeneyMasasi: {fileID: 1430547559}
   fadeOut: {fileID: 1592547223}
   speed: 10
   firstDialog: {fileID: 733060080}
@@ -11167,6 +11631,7 @@ MonoBehaviour:
   collider: {fileID: 0}
   canmove: 1
   DrawerOpened: 0
+  inBeginning: 0
 --- !u!114 &1404564127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11495,7 +11960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1430547560
 Transform:
   m_ObjectHideFlags: 0
@@ -11520,7 +11985,7 @@ Transform:
   - {fileID: 1220010651}
   - {fileID: 1070616102}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1430547561
 SpriteRenderer:
@@ -11698,7 +12163,7 @@ Transform:
   - {fileID: 313661809}
   - {fileID: 1326872176}
   m_Father: {fileID: 519420032}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1491806553
 SpriteRenderer:
@@ -11847,6 +12312,7 @@ MonoBehaviour:
   crafting2: {fileID: 1016276177}
   player: {fileID: 1404564126}
   index: 4
+  hoverText: {fileID: 793851054}
 --- !u!114 &1511840209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13417,8 +13883,10 @@ GameObject:
   - component: {fileID: 1619444613}
   - component: {fileID: 1619444615}
   - component: {fileID: 1619444614}
+  - component: {fileID: 1619444616}
+  - component: {fileID: 1619444617}
   m_Layer: 0
-  m_Name: LEVEL2KAP
+  m_Name: "\xC7amur"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13456,6 +13924,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 0
+  hoverText: {fileID: 793851054}
 --- !u!212 &1619444615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13508,6 +13977,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1619444616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619444612}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &1619444617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619444612}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: "\xC7amur"
+  sprite: {fileID: 21300000, guid: f41726fecf7f7bb4fbc27b07da2fe317, type: 3}
+  count: 5
 --- !u!1 &1620248875
 GameObject:
   m_ObjectHideFlags: 0
@@ -13604,8 +14114,10 @@ GameObject:
   - component: {fileID: 1637646880}
   - component: {fileID: 1637646882}
   - component: {fileID: 1637646881}
+  - component: {fileID: 1637646883}
+  - component: {fileID: 1637646884}
   m_Layer: 0
-  m_Name: LEVEL2KAP (3)
+  m_Name: Tuz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13643,6 +14155,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 3
+  hoverText: {fileID: 793851054}
 --- !u!212 &1637646882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13695,6 +14208,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1637646883
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637646879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &1637646884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637646879}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Tuz
+  sprite: {fileID: 21300000, guid: cb4ec67460f89454d82df40cfe71c055, type: 3}
+  count: 5
 --- !u!1 &1649670543
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,6 +14428,7 @@ MonoBehaviour:
   crafting2: {fileID: 1016276177}
   player: {fileID: 1404564126}
   index: 2
+  hoverText: {fileID: 793851054}
 --- !u!114 &1659096620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15623,8 +16178,10 @@ GameObject:
   - component: {fileID: 1965763792}
   - component: {fileID: 1965763794}
   - component: {fileID: 1965763793}
+  - component: {fileID: 1965763795}
+  - component: {fileID: 1965763796}
   m_Layer: 0
-  m_Name: LEVEL2KAP (5)
+  m_Name: Oksijen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15662,6 +16219,7 @@ MonoBehaviour:
   crafting2: {fileID: 852204243}
   player: {fileID: 1404564126}
   index: 5
+  hoverText: {fileID: 793851054}
 --- !u!212 &1965763794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15714,6 +16272,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1965763795
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965763791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.8}
+    newSize: {x: 1.6, y: 1.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.8}
+  m_EdgeRadius: 0
+--- !u!114 &1965763796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965763791}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7bc5d5be568a948805f8b19fe51c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Oksijen
+  sprite: {fileID: 21300000, guid: c28fb1e7d71dc794c89e29a02ce5ed95, type: 3}
+  count: 5
 --- !u!1 &1970474273
 GameObject:
   m_ObjectHideFlags: 0
@@ -16079,6 +16678,7 @@ MonoBehaviour:
   crafting2: {fileID: 1016276177}
   player: {fileID: 1404564126}
   index: 0
+  hoverText: {fileID: 793851054}
 --- !u!114 &1992227433
 MonoBehaviour:
   m_ObjectHideFlags: 0

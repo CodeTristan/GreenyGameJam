@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject Masa2;
     public GameObject Drawer;
     public GameObject Alchemy;
+    public GameObject DeneyMasasi;
     public GameObject fadeOut;
     public float speed;
     public DialogueStarter firstDialog;
@@ -26,11 +27,13 @@ public class PlayerMovement : MonoBehaviour
     private bool onMasa2 = false;
     private bool onDrawer = false;
     private bool onAlchemy = false;
+    private bool onDeney = false;
 
     public bool DrawerOpened = false;
     private bool AlchemyOpened = false;
+    private bool DeneyOpened = false;
 
-    private bool inBeginning = true;
+    public bool inBeginning = true;
 
 
     void Start()
@@ -41,7 +44,8 @@ public class PlayerMovement : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
         roomManager = FindObjectOfType<RoomManager>();
 
-        canmove = false;
+        if(inBeginning)
+            canmove = false;
         
     }
 
@@ -64,6 +68,8 @@ public class PlayerMovement : MonoBehaviour
             doorAnimator.SetTrigger("openDoor");
         else if (collision.tag == "Masa2")
             onMasa2 = true;
+        else if (collision.tag == "DeneyMasasý")
+            onDeney = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -76,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
             onAlchemy = false;
         else if (collision.tag == "Masa2")
             onMasa2 = false;
+        else if (collision.tag == "DeneyMasasý")
+            onDeney = false;
     }
     private void Update()
     {
@@ -118,6 +126,14 @@ public class PlayerMovement : MonoBehaviour
                 AlchemyOpened = false;
                 Inventory.onMasa = false;
             }
+            if (DeneyOpened)
+            {
+                collider.enabled = true;
+                DeneyMasasi.SetActive(false);
+                canmove = true;
+                DeneyOpened = false;
+                Inventory.onMasa = false;
+            }
 
 
         }
@@ -149,6 +165,14 @@ public class PlayerMovement : MonoBehaviour
                 Alchemy.SetActive(true);
                 canmove = false;
                 AlchemyOpened = true;
+                Inventory.onMasa = true;
+            }
+            if (onDeney)
+            {
+                collider.enabled = false;
+                DeneyMasasi.SetActive(true);
+                canmove = false;
+                DeneyOpened = true;
                 Inventory.onMasa = true;
             }
         }
