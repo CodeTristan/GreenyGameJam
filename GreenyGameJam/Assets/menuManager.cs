@@ -9,10 +9,26 @@ public class menuManager : MonoBehaviour
     public GameObject options;
     public GameObject credits;
 
-
+    public GameObject pauseScreen;
     public void Exit()
     {
         Application.Quit();
+    }
+
+    public void openPauseScreen()
+    {
+        if(pauseScreen.activeSelf == false)
+        {
+            pauseScreen.SetActive(true);
+        }
+        else
+        {
+            pauseScreen.SetActive(false);
+        }
+    }
+    public void GoMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
     public void Play()
     {

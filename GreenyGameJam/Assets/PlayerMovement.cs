@@ -46,7 +46,8 @@ public class PlayerMovement : MonoBehaviour
         roomManager = FindObjectOfType<RoomManager>();
 
         FindObjectOfType<SoundManager>().StopPlaying("MainMusic");
-        FindObjectOfType<SoundManager>().StopPlaying("GerilimMüziði");
+        FindObjectOfType<SoundManager>().Play("GerilimMüziði");
+        FindObjectOfType<SoundManager>().Play("Silah");
         if (inBeginning)
             canmove = false;
         

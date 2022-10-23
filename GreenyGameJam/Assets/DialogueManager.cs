@@ -24,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     private bool canSkip;
     private bool yaziSkip;
     private string sentence;
+    private SoundManager manager;
 
     [Header("GameObjects")]
     public GameObject numPad;
@@ -32,11 +33,15 @@ public class DialogueManager : MonoBehaviour
     public GameObject Room2Cutscene;
     public GameObject Room2AynaMinigame;
     public GameObject room2Tel;
+    public GameObject mailCutscene;
+    public GameObject finishCutscene;
     public DialogueStarter room2CutsceneDialog;
+    public DialogueStarter mailCutsceneDialog;
 
     private void Start()
     {
         sentences = new Queue<string>();
+        manager = FindObjectOfType<SoundManager>();
     }
     void Update()
     {
@@ -56,6 +61,7 @@ public class DialogueManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             pcPasswordPaperUI.SetActive(false);
+            Room2AynaMinigame.SetActive(false);
         }
     }
 
@@ -117,9 +123,11 @@ public class DialogueManager : MonoBehaviour
         dialogText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+            
             dialogText.text += letter;
             yield return new WaitForSeconds(typeSpeed);
             int random = Random.Range(0, 4);
+            manager.Play(random.ToString());
             yaziSkip = true;
         }
         yaziSkip = false;
@@ -162,6 +170,16 @@ public class DialogueManager : MonoBehaviour
         else if (context == "Ajanda")
         {
             room2Tel.SetActive(true);
+        }
+        else if (context == "pcAfter")
+        {
+            mailCutscene.SetActive(true);
+            mailCutsceneDialog.TriggerDialog();
+        }
+        else if (context == "mailCutscene")
+        {
+            mailCutscene.SetActive(false);
+            finishCutscene.SetActive(true);
         }
 
 

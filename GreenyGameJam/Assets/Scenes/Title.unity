@@ -663,21 +663,51 @@ MonoBehaviour:
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 081c3a0bf7acbdc4c8c296e9ddf60c17, type: 3}
     name: MainMusic
-    volume: 0.142
+    volume: 0.294
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: c068b226b4fbb5345a581de4a81f85e4, type: 3}
     name: Teleport
-    volume: 0.664
+    volume: 1
     pitch: 1.04
     loop: 0
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: 3997c7f09c002c64fb73f85959a824c3, type: 3}
     name: "GerilimM\xFCzi\u011Fi"
-    volume: 0.452
+    volume: 1
     pitch: 1
     loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 83cf36df14cfa8746a454fff222b8b7f, type: 3}
+    name: "yaz\u0131"
+    volume: 0.629
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: af2dcbeff5ed39242bdeceb17e6a77fa, type: 3}
+    name: 0
+    volume: 0.629
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 16edece32631d1c459d0fd5f376343a3, type: 3}
+    name: 1
+    volume: 0.629
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: adaa9dcb7cd361f489d87e7821bad82e, type: 3}
+    name: 2
+    volume: 0.629
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a7caff65e2c30a84c9db31f4556cc8d9, type: 3}
+    name: 3
+    volume: 0.629
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &361343689
 Transform:
@@ -1075,6 +1105,7 @@ MonoBehaviour:
   main: {fileID: 1574867128}
   options: {fileID: 192413473}
   credits: {fileID: 107357889}
+  pauseScreen: {fileID: 0}
 --- !u!114 &860347782
 MonoBehaviour:
   m_ObjectHideFlags: 0

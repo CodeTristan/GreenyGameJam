@@ -34,6 +34,7 @@ public class DrawerPuzzle : MonoBehaviour
             pcPasswordPaperUI.SetActive(true);
             FindObjectOfType<RoomManager>().room1Comp = true;
             drawerPuzzle.gameObject.SetActive(false);
+            GameObject.FindGameObjectWithTag("Drawer").GetComponent<Collider2D>().enabled = false;
         }
     }
     private void OnMouseDown()
