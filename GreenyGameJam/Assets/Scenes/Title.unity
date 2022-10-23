@@ -680,21 +680,21 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: "neolmu\u015Fburada"
     clip: {fileID: 8300000, guid: 34690b3635401614f95457a3c02837ee, type: 3}
-    volume: 0.823
-    pitch: 1
-    loop: 1
+    volume: 1
+    pitch: 1.04
+    loop: 0
     source: {fileID: 0}
   - name: "dedektifkorkun\xE7"
     clip: {fileID: 8300000, guid: 67299c43b721d4944bbd54ce6054d40d, type: 3}
     volume: 0.793
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: "klasikintiharvakas\u0131"
     clip: {fileID: 8300000, guid: ab23500c29ad22d4687f2e8476b8409c, type: 3}
     volume: 0.793
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &361343689
 Transform:

@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
     public Collider2D collider;
     private Animator animator;
     private RoomManager roomManager;
-    private SoundManager soundManager;
 
 
     public bool canmove = true;
@@ -44,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
         collider = gameObject.GetComponent<Collider2D>();
         animator = gameObject.GetComponent<Animator>();
         roomManager = FindObjectOfType<RoomManager>();
-        soundManager = FindObjectOfType<SoundManager>();
 
         if(inBeginning)
             canmove = false;
@@ -193,8 +191,6 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += new Vector3(horizontal, 0,0);
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
-            
-
         }
 
     }

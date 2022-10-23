@@ -248,8 +248,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &8236717
@@ -326,8 +332,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &41904571
@@ -507,8 +519,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &50700860
@@ -1734,8 +1752,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &238959529
@@ -2106,8 +2130,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &289330240
@@ -2234,34 +2264,79 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: "David (Kocas\u0131)"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   - name: "Profes\xF6r"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   - name: David
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: eb15fdafd585ea14f9ed38f2e7c077ff, type: 3}
   dialogFinished: 0
 --- !u!1 &311706597
@@ -2773,8 +2848,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &356549217
@@ -5956,24 +6037,60 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise Von Dornis
+    sentences:
+      sentences:
+      - 
+      - "Ne olmu\u015F burada?"
+      SoundName: "neolmu\u015Fburada"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
+    sentences:
+      sentences:
+      - 
+      - "Dedektif korkun\xE7 klasik bir intihar vakas\u0131."
+      SoundName: "dedektifkorkun\xE7"
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
+    sentences:
+      sentences:
+      - 
+      - "Klasik intihar vakas\u0131, bu \xE7\u0131kar\u0131m\u0131 nas\u0131l yapt\u0131n?"
+      SoundName: "klasikintiharbakas\u0131"
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Polis
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 7e3c27956b6956d4d88c4cfae0e0c8c5, type: 3}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!4 &733060081
@@ -6522,8 +6639,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &844796952
@@ -7551,8 +7674,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1000125068
@@ -7604,8 +7733,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1000125071
@@ -7938,8 +8073,16 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
-  - name: 
+  - name: Denise
+    sentences:
+      sentences:
+      - 
+      - "Ne olmu\u015F burada?"
+      SoundName: 
     sprite: {fileID: 0}
   dialogFinished: 0
 --- !u!61 &1024474398
@@ -8748,8 +8891,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1131115966
@@ -8969,8 +9118,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise Von Dornis
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1157619895
@@ -10088,8 +10243,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1242823288
@@ -11165,12 +11326,24 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1268196363
@@ -11297,8 +11470,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 9c61499fa6c4cfe40a78ad17f10e606e, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!1 &1285150474
@@ -12059,8 +12238,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Defter
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: fa58c568fd95cde4db69d3c17f30a6b5, type: 3}
   dialogFinished: 0
 --- !u!61 &1326872178
@@ -13112,12 +13297,24 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1430547559
@@ -13729,8 +13926,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Robo
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: ccd8d6c69a7661b479003ce6a00266e8, type: 3}
   dialogFinished: 0
 --- !u!1 &1530785244
@@ -13972,16 +14175,34 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 5a91daf62fecb484693549850377e71d, type: 3}
   - name: "Kad\u0131n"
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1553403304
@@ -15424,8 +15645,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1620248878
@@ -17224,8 +17451,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &1886274034
@@ -18431,8 +18664,14 @@ MonoBehaviour:
   isThereChoiceAfterwards: 0
   dialog:
   - name: 
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 0}
   - name: Denise
+    sentences:
+      sentences: []
+      SoundName: 
     sprite: {fileID: 21300000, guid: 2392f646ea80896429305e59dda226e9, type: 3}
   dialogFinished: 0
 --- !u!61 &2006793903

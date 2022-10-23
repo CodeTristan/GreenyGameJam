@@ -56,7 +56,6 @@ public class DialogueManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             pcPasswordPaperUI.SetActive(false);
-            Room2AynaMinigame.SetActive(false);
         }
     }
 
@@ -77,7 +76,7 @@ public class DialogueManager : MonoBehaviour
         
         sentences.Clear();
 
-        foreach (string sentence in dialog[dialogCount].sentences.sentences)
+        foreach (string sentence in dialog[dialogCount].sentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -104,6 +103,11 @@ public class DialogueManager : MonoBehaviour
         {
             sentence = sentences.Dequeue();
             StopAllCoroutines();
+            if (currentDialogs[dialogCount].sentences.SoundName != "" && currentDialogs[dialogCount].sentences.soundPlayed == false)
+            {
+                FindObjectOfType<SoundManager>().Play(currentDialogs[dialogCount].sentences.SoundName);
+                currentDialogs[dialogCount].sentences.soundPlayed = true;
+            }
             StartCoroutine(TypeSentence(sentence));
         }
     }

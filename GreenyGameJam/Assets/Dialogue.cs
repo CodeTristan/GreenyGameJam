@@ -10,11 +10,15 @@ public class Dialogue
     public sentence sentences;
 
     public Sprite sprite;
+
+    
 }
 
+[System.Serializable]
 public class sentence
 {
     [TextArea(3, 10)]
     public string[] sentences;
     public string SoundName;
+    public bool soundPlayed;
 }
