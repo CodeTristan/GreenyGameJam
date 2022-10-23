@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Mirror3 : MonoBehaviour
 {
     Image L3, L4, F1;
-    
+    public GameObject pcbefore;
+    public GameObject pcAfter;
 
     private void Start()
     {
@@ -32,7 +33,8 @@ public class Mirror3 : MonoBehaviour
         {
             L4.enabled = false;
             F1.color = Color.white;
-
+            pcbefore.SetActive(false);
+            pcAfter.SetActive(true);
         }
     }
 }
